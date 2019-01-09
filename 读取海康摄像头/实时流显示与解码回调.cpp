@@ -15,30 +15,26 @@ volatile int gbHandling = 3;
 clock_t t1 = clock();
 //解码回调 视频为YUV数据(YV12)，转换为BGR数据
 void CALLBACK DecCBFun(long nPort, char * pBuf, long nSize, FRAME_INFO * pFrameInfo, long nReserved1, long nReserved2)
-{
-	if (gbHandling)
+{/*
+	if (gbHandling)// 间隔几帧取一帧，怪不得取图不流畅。
 	{
 		gbHandling--;
 		return;
 	}
-
+*/
 	long lFrameType = pFrameInfo->nType;
 	if (lFrameType == T_YV12)
 	{
-
 		Mat pImg(pFrameInfo->nHeight, pFrameInfo->nWidth, CV_8UC3);
 		Mat src(pFrameInfo->nHeight + pFrameInfo->nHeight / 2, pFrameInfo->nWidth, CV_8UC1, pBuf);
 		cvtColor(src, pImg, CV_YUV2BGR_YV12);
 		cout << clock() - t1 << endl;
 		//  Sleep(-1);
-		//imshow("IPCamera", pImg);
-
+		imshow("IPCamera", pImg);
 		t1 = clock();
-		//waitKey(1);
-	
-
+		waitKey(1);
 	}
-	gbHandling = 3;
+	//gbHandling = 3;
 
 }
 
@@ -88,16 +84,16 @@ void CALLBACK fRealDataCallBack(LONG lRealHandle, DWORD dwDataType, BYTE *pBuffe
 			}
 		}
 		break;
-	default: //其他数据
-		if (dwBufSize > 0 && nPort != -1)
-		{
-			waitKey(1);
-			if (!PlayM4_InputData(nPort, pBuffer, dwBufSize))// 输入
-			{
-				break;
-			}
-		}
-		break;
+	//default: //其他数据
+	//	if (dwBufSize > 0 && nPort != -1)
+	//	{
+	//		waitKey(1);
+	//		if (!PlayM4_InputData(nPort, pBuffer, dwBufSize))// 输入
+	//		{
+	//			break;
+	//		}
+	//	}
+	//	break;
 	}
 }
 
