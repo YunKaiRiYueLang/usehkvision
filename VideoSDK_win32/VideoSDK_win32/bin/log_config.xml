@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LogConfig>
+	<!-- 是否启用日志循环覆盖 0:不启用;1:启用循环覆盖 --> 
+	<RollbackMode>1</RollbackMode>
+	<!-- 日志循环覆盖大小 单位:MB --> 
+	<RollbackSize>50</RollbackSize>
+</LogConfig>

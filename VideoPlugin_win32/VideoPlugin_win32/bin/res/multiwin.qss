@@ -1,0 +1,213 @@
+/* 多窗口背景样式*/
+QWidget#CMultiPlayWin
+{
+	background-color:#000000;
+	border:1px;
+	spacing:1px;
+}
+/*单窗口样式,#262626*/
+QWidget#singlePlayWin
+{
+	background-color:#262626;
+}
+/*选中窗口样式, 其宽度还受限于layou预留的边缘宽度，最多只能显示边缘宽度*/
+QWidget#singlePlayWin[isSelected="true"]
+{
+	background-color:#262626;
+
+}
+
+/*工具条样式, 由于toolbar被设为了window，所以透明不起作用*/
+QToolBar
+{
+	color:#ffffff;
+	background-color:#262626;
+	border:none;
+}
+QWidget#bottomToolbar,QWidget#topToolbar
+{
+	color:#ffffff;
+	background-color:#262626;
+	border:none;
+}
+
+QMenu#rightMenu,QMenu#extendMenu
+{
+	color:#ffffff;
+	background-color:rgb(61,61,61);
+	border:1px;
+}
+QMenu#rightMenu::item,QMenu#extendMenu::item
+{
+	color:#ffffff;
+}
+QMenu#rightMenu::item:selected,QMenu#extendMenu::item:selected
+{
+	background-color:#000000;
+}
+/*声音滑块样式*/
+QWidget#volWidg
+{
+	background-color:rgb(61,61,61);
+	border:1px;
+}
+QSlider#volSlide,QLabel#volLabel0,QLabel#volLabel100
+{
+	background-color:rgb(61,61,61);
+	border:1px;
+}
+/*工具条按钮样式，widget的透明是起作用的，不过不是Float，而是int （0，255）*/
+#singlePlayWin QComboBox
+{
+	background-color:#262626;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-style:flat;
+}
+
+#singlePlayWin QComboBox QAbstractItemView
+{
+	background-color:#262626;
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-style:flat;
+}
+/*工具条按钮样式*/
+#singlePlayWin QToolButton
+{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	font-size:12px;
+	border-style:flat;
+	background-color:#262626;
+	border:0px;
+}
+#singlePlayWin QToolButton:hover
+{
+	background-color:rgba(255,255,255,26);
+	border:0px;
+}
+#singlePlayWin QToolButton:pressed
+{
+	background-color:rgba(255,255,255,51);
+	border:0px;
+}
+#singlePlayWin QToolButton[hasnocheckedstyle="false"]:checked
+{
+	background-color:rgb(255,255,255,77);
+	border:0px;
+}
+#singlePlayWin QToolTip
+{
+	border:1px;
+	opacity:200;
+	background-color:#262626;
+	color:#ffffff;
+}
+QLabel#transLabel
+{
+	color:red;
+	background-color:rgb(255,255,255,0);
+}
+/*播放控件样式,背景色#262626*/
+QLabel#playLabel
+{
+	color:red;
+	background-color:#262626;
+}
+/*叠加窗口样式*/
+QLabel#transLabel
+{
+	color:#ffffff;
+	font-family:"Microsoft YaHei";
+	background-color:#262626;
+	border-radius:2px;
+}
+/*图片监控*/
+QLabel#pictureLabel
+{
+	color:red;
+	background-color:#262626;
+}
+/*限制预览窗口样式*/
+QWidget#limitPlay,QWidget#playFinish,QWidget#PromptInfo
+{
+	background-color:#262626;
+}
+QLabel#limitLabel,QLabel#playFinishShowLabel,QLabel#infoLineEdit
+{
+	border:none;
+	background-color:#262626;
+	color:rgba(255,255,255,153);
+	font:12px;
+	font-family:"Microsoft YaHei";
+}
+/*详情按钮样式*/
+QPushButton#moreInfoPushButtion
+{
+	background-color:#262626;
+	color:#3875f6;
+	font:12px;
+	font-family:"Microsoft YaHei";
+	border: 0px solid #99ffffff;
+}
+QPushButton#limitPushButton,QPushButton#limitCloseButton,QPushButton#playFinishRePtb,QPushButton#playFinishClosePtb,QPushButton#infoPushButton
+{
+	color:rgba(255,255,255,153);
+	font:12px;
+	font-family:"Microsoft YaHei";
+	border: 1px solid #99ffffff;
+	border-radius:2px;
+}
+QPushButton#limitPushButton:hover,QPushButton#limitCloseButton:hover,QPushButton#playFinishRePtb:hover,QPushButton#playFinishClosePtb:hover,QPushButton#infoPushButton:hover
+{
+	color:#ffffffff;
+	background-color:#1affffff;
+	font:12px;
+	font-family:"Microsoft YaHei";
+	border: 1px solid #ffffffff;
+	border-radius:2px;
+}
+QPushButton#limitPushButton:pressed,QPushButton#limitCloseButton:pressed,QPushButton#playFinishRePtb:pressed,QPushButton#playFinishClosePtb:pressed,QPushButton#infoPushButton:pressed
+{
+	color:#ffffffff;
+	background-color:#26000000;
+	font:12px;
+	font-family:"Microsoft YaHei";
+	border: 1px solid #ffffffff;
+	border-radius:2px;
+}
+/*限时回放时间条*/
+QProgressBar#progressbar::chunk
+{
+	background-color:#3875f6
+}
+/*限时预览倒计时窗口样式*/
+QFrame#LimitCountDown
+{
+	background-color:#000000;
+	border-radius:2px;
+}
+QLabel#LCDNumLabel
+{
+	color:#ffffff;
+	font:12px bold;
+	font-family:"Microsoft YaHei";
+	border-radius:16px;
+}
+QLabel#LCDTextLabel
+{
+	font-family:"Microsoft YaHei";
+	font:12px;
+	color:#ffffff;
+}
+QPushButton#LCDPushButton
+{
+	font-family:"Microsoft YaHei";
+	font:12px;
+	color:#3875f6;
+	border:none;
+	border-radius:16px;
+}

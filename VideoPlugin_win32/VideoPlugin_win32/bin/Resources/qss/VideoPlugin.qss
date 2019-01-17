@@ -1,0 +1,576 @@
+CPictureTipWidget
+{
+	border: 1px solid #2a2a2a;
+	background-color: #3b3b3b;
+}
+
+QLabel#picture_path_label,
+QLabel#picture_file_label
+{
+	color: #ffffff;
+	font: 12px Microsoft YaHei;
+}
+
+QToolButton#tip_close_button
+{
+	border: none;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/icon_locking_close_nor.svg);
+}
+
+QToolButton#tip_close_button:hover
+{
+	background-image: url(:/VSSClient/Resources/icon_locking_close_hover.svg);
+}
+
+QPushButton#view_file_button,
+QPushButton#view_folder_button
+{
+	border: none;
+	background: transparent;
+	color: #3875F6;
+	font: 12px Microsoft YaHei;
+}
+
+QPushButton#view_file_button:hover,
+QPushButton#view_file_button:selected,
+QPushButton#view_folder_button:hover,
+QPushButton#view_folder_button:selected
+{
+	text-decoration: underline;
+}
+
+QFrame#tip_separator_line
+{
+	background-color: rgb(110, 110, 110);
+}
+
+QStackedWidget#m_pContainer
+{
+	border: none;
+	background-color: white;
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_pause_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::unchecked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_pause_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_pause_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_play_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::checked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_play_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::checked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_play_nor.svg);
+}
+
+QCheckBox#m_pPlayerOrPauserAll::indicator::disabled
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_play_dis.svg);
+}
+
+QPushButton#m_pCloseAll
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_nor.svg);
+}
+
+QPushButton#m_pCloseAll:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_hover.svg);
+}
+
+QPushButton#m_pCloseAll:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_hover.svg);
+}
+
+QPushButton#m_pSnapAll
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_nor.svg);
+}
+
+QPushButton#m_pSnapAll:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_hover.svg);
+}
+
+QPushButton#m_pSnapAll:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_hover.svg);
+}
+
+QPushButton#m_pSnapAll:disabled
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_dis.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_nor.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::unchecked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_hover.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_hover.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_nor.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::checked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_hover.svg);
+}
+
+QCheckBox#m_pFullScreen::indicator::checked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_hover.svg);
+}
+
+QPushButton#m_pTimeSelector
+{
+	border: none;
+	background-color: rgb(72, 72, 72);
+	font-family: "Microsoft YaHei";
+	font-weight: bold;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+QPushButton#m_pLayout
+{
+	border: none;
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_nor.svg);
+}
+
+QPushButton#m_pLayout:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_hover.svg);
+}
+
+QPushButton#m_pLayout:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_hover.svg);
+}
+
+QPushButton#m_pFast
+{
+	opacity: 0.3;
+	border: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_forward_nor.svg);
+	margin-top: 0px;
+}
+
+QPushButton#m_pFast:disabled
+{
+	opacity: 0.3;
+	border: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_forward_dis.svg);
+	margin-top: 0px;
+}
+
+QPushButton#m_pFast:hover
+{
+	opacity: 0.3;
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_forward_hover.svg);
+	margin-top: 0px;
+}
+
+QPushButton#m_pFast:pressed
+{
+	opacity: 0.3;
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_forward_hover.svg);
+	margin-top: 0px;
+}
+
+QPushButton#m_pSlow
+{
+	opacity: 0.3;
+	border: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_backward_nor.svg);
+}
+
+QPushButton#m_pSlow:disabled
+{
+	opacity: 0.3;
+	border: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_backward_dis.svg);
+}
+
+QPushButton#m_pSlow:hover
+{
+	opacity: 0.3;
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_backward_hover.svg);
+}
+
+QPushButton#m_pSlow:pressed
+{
+	opacity: 0.3;
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-image: url(:/VideoPlugin/Resources/svg/icon_fast_backward_hover.svg);
+}
+
+QPushButton#m_pReset
+{
+	border: none;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+QPushButton#m_pReset:disabled
+{
+	border: none;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+QPushButton#m_pReset:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+QPushButton#m_pReset:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+QPushButton#m_pReset:disabled
+{
+	border: none;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: rgba(255, 255, 255, 60);
+}
+
+QRadioButton#m_pLayout_1x1::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_1-1_nor.svg);
+}
+
+QRadioButton#m_pLayout_1x1::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_1-1_hover.svg);
+}
+
+QRadioButton#m_pLayout_1x1::indicator::unchecked:hover
+{
+	background-color: rgb(79, 79, 79);
+	image: url(:/VideoPlugin/Resources/svg/icon_1-1_hover.svg);
+}
+
+QRadioButton#m_pLayout_1x1::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_1-1_hover.svg);
+}
+
+QRadioButton#m_pLayout_2x2::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_2-2_nor.svg);
+}
+
+QRadioButton#m_pLayout_2x2::indicator::unchecked:hover
+{
+	background-color: rgb(79, 79, 79);
+	image: url(:/VideoPlugin/Resources/svg/icon_2-2_nor.svg);
+}
+
+QRadioButton#m_pLayout_2x2::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_2-2_nor.svg);
+}
+
+QRadioButton#m_pLayout_2x2::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_2-2_hover.svg);
+}
+
+QRadioButton#m_pLayout_3x3::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_nor.svg);
+}
+
+QRadioButton#m_pLayout_3x3::indicator::unchecked:hover
+{
+	background-color: rgb(79, 79, 79);
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_nor.svg);
+}
+
+QRadioButton#m_pLayout_3x3::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_nor.svg);
+}
+
+QRadioButton#m_pLayout_3x3::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_hover.svg);
+}
+
+QRadioButton#m_pLayout_4x4::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_4-4_nor.svg);
+}
+
+QRadioButton#m_pLayout_4x4::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_4-4_hover.svg);
+}
+
+QRadioButton#m_pLayout_4x4::indicator::unchecked:hover
+{
+	background-color: rgb(79, 79, 79);
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_nor.svg);
+}
+
+QRadioButton#m_pLayout_4x4::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_3-3_nor.svg);
+}
+
+QPushButton#LiveviewSnapAll
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_nor.svg);
+}
+
+QPushButton#LiveviewSnapAll:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_hover.svg);
+}
+
+QPushButton#LiveviewSnapAll:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_hover.svg);
+}
+
+QPushButton#LiveviewSnapAll:disabled
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_capture_dis.svg);
+}
+
+QPushButton#LiveviewCloseAll
+{
+	border: none;
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_nor.svg);
+}
+
+QPushButton#LiveviewCloseAll:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_hover.svg);
+}
+
+QPushButton#LiveviewCloseAll:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: center;
+	background-image: url(:/VideoPlugin/Resources/svg/icon_all_close_hover.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::unchecked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_nor.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::unchecked:hover
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_hover.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::unchecked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_hover.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::unchecked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_fullscreen_hover.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::checked
+{
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_nor.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::checked:hover
+{
+	background-color: rgb(81, 81, 81);
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_hover.svg);
+}
+
+QCheckBox#LiveviewFullScreen::indicator::checked:pressed
+{
+	background-color: rgb(52, 52, 52);
+	image: url(:/VideoPlugin/Resources/svg/icon_restore_screen_hover.svg);
+}
+
+QPushButton#LiveviewLayout
+{
+	border: none;
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_nor.svg);
+}
+
+QPushButton#LiveviewLayout:hover
+{
+	border: none;
+	background-color: rgb(81, 81, 81);
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_hover.svg);
+}
+
+QPushButton#LiveviewLayout:pressed
+{
+	border: none;
+	background-color: rgb(52, 52, 52);
+	background-position: left;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-splitscreen_hover.svg);
+}
+
+QToolButton#_tip_next_button
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-right-nor.svg);
+}
+
+QToolButton#_tip_next_button:hover
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-right-hover.svg);
+}
+
+QToolButton#_tip_next_button:pressed
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-right-hover.svg);
+}
+
+QToolButton#_tip_previous_button
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-left-nor.svg);
+}
+
+QToolButton#_tip_previous_button:hover
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-left-hover.svg);
+}
+
+QToolButton#_tip_previous_button:pressed
+{
+	border: none;
+	margin-top: 4px;
+	background-repeat: none;
+	background-image: url(:/VideoPlugin/Resources/svg/icon-left-hover.svg);
+}
+
+QLabel#page_index_label
+{
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+	color: white;
+}

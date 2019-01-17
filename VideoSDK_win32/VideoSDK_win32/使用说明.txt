@@ -1,0 +1,5 @@
+1、VideoSDK提供海康、大华、国标、ehome、onvif协议接入设备取流解码功能；
+2、导出库为32位的VideoSDK.dll和VideoSDK.lib，VideoSDK.dll位于bin目录中，VideoSDK.lib位于lib目录中，头文件位于include目录中；
+3、提供基于MFC的demo源码，位于demo目录，demo请使用Release编译，默认生成路径为bin目录；Demo名称为SDKDemo.exe
+4、VideoSDK基于Visual Studio2008（简称VS2008）开发，某些机器可能存在缺失VS2008运行时环境，请安装VC_x86Runtime.exe（若已安装则选择修复），安装脚本为install_runtime.bat（或直接运行VC_x86Runtime.exe安装）；
+5、Demo的运行需要依赖客户生产环境平台，如海康威视综合安防平台iSecure Center V1.1.0、海康威视智能应用平台Infovision IoT V1.0.0；

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--多窗口库的综合参数文件-->
+<Config>
+    <!--paly -->
+    <Play>
+        <!--本地编码方式，用于本类进行编码转换（X->UTF-8）,外层按UTF-8输入，底层是UTF-8->GBK输出到解码库，解码库的字符再由GBK->UTF-8-->
+        <LocalCodec>GBK</LocalCodec>
+        <!--窗口是否允许互相拖动-->
+        <DragAndDrop>true</DragAndDrop>
+        <!--预览重连时间， 单位:S 如果<0则不允许重连,relinkTimes=0表示无限重连-->
+        <ReLink relinkTimes="5">10</ReLink>
+        <!--缓存帧数，目前只支持3,15,30-->
+        <FrameBuf>3</FrameBuf>
+        <!--解码库缓存空间，单位KB,[50,90*1024]-->
+        <DecodeBuffer>2048</DecodeBuffer>
+        <!--工具条总是显示-->
+        <ToolBarIsAlwaysShow>false</ToolBarIsAlwaysShow>
+        <!--是否使用GPU解码-->
+        <GPU>false</GPU>
+        <!--使用智能分析-->
+        <SmartAnalyze>false</SmartAnalyze>
+        <!--使用移动侦测-->
+        <IVS>false</IVS>
+        <!--使用POS-->
+        <POS>false</POS>
+		<!--使用图片叠加-->
+		<ImageOverLay>false</ImageOverLay>
+		<!--使用热成像-->
+		<ThermalImagery>false</ThermalImagery>
+        <!--预览/回放 录像文件存放的路径，文件名由用户传入的区域名与监控点名作为前缀，程序添加后缀的方法确定，路径的最后一个“/"不能忘
+			hasTimeDir: 是否常见日期文件夹，默认是不添加的，
+			maxSize: 存储的最大大小，单位是MB，目前只有256,512,1024,2048四个选项-->
+        <VideoPath maxSize="5" hasTimeDir="false">./录像/回放/</VideoPath>
+        <!-- 预览抓图的参数 值是路径，，路径的最后一个“/"不能忘, type是图片保存的类型 0:jpg 1:bmp， 文件名根据播放时传入的区域名与监控点名，由底层自动生成-->
+        <PicturePath type="1">./图片/</PicturePath>
+        <!--抓图模式 0：单张抓图，1：按时间连续抓图，2：按帧连续抓怕, CatchTimes：抓怕次数，CatchInternal：抓怕间隔，单位ms-->
+        <PictureMode CatchInternal="10" CatchTimes="6">0</PictureMode>
+    </Play>
+    <!-- 公共按钮 -->
+</Config>

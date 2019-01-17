@@ -1,0 +1,25 @@
+2019-01-08 17:12:28.166 [0x0000b0c8] INFO  VideoSDK - [.\OperSDK.cpp-90] init success.
+=======================
+version: 1.0.0
+build: 1.0.0 (Build2018/10/16 15:37:00)
+brief: videoSDK
+=======================
+2019-01-08 17:12:59.030 [0x0000b0c8] INFO  VideoSDK - [.\OperSDK.cpp-90] init success.
+=======================
+version: 1.0.0
+build: 1.0.0 (Build2018/10/16 15:37:00)
+brief: videoSDK
+=======================
+2019-01-08 17:13:01.043 [0x0000b0c8] WARN  VideoSDK - [.\OperSDK.cpp-72] it was inited already.
+2019-01-08 17:13:45.230 [0x0000e0dc] INFO  VideoSDK - [.\OperSDK.cpp-90] init success.
+=======================
+version: 1.0.0
+build: 1.0.0 (Build2018/10/16 15:37:00)
+brief: videoSDK
+=======================
+2019-01-08 17:13:53.429 [0x00011928] DEBUG VideoSDK - [.\SinglePlay.cpp-47] current type is 0.
+2019-01-08 17:13:53.475 [0x00011928] ERROR VideoSDK - [.\SinglePlay.cpp-785] HPSClient_Start fail, error code is 24373875
+2019-01-08 17:13:53.475 [0x00011928] ERROR VideoSDK - [.\OperSDK.cpp-147] StartPrivew fail, error code is 10.
+2019-01-08 17:14:00.382 [0x0000d2d4] DEBUG VideoSDK - [.\SinglePlay.cpp-47] current type is 0.
+2019-01-08 17:14:00.385 [0x0000d2d4] ERROR VideoSDK - [.\SinglePlay.cpp-785] HPSClient_Start fail, error code is 24373875
+2019-01-08 17:14:00.385 [0x0000d2d4] ERROR VideoSDK - [.\OperSDK.cpp-147] StartPrivew fail, error code is 10.

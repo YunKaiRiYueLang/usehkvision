@@ -1,0 +1,4636 @@
+/* 整体背景，边框等 */
+CVSSClient
+{
+	background-color: #fefefe;
+	font-family: Microsoft YaHei;
+}
+
+CQssWidget
+{
+	background-color: white;
+}
+
+CVSSClient QStackedWidget#stacked_widget
+{
+	border: none;
+}
+
+CTitleWidget
+{
+	background: transparent;
+	background-color: #333333;
+}
+
+CLiveviewToolbar
+{
+	background-color: #3d3d3d;
+}
+
+CConfigContentWidget
+{
+	border: 1px solid #f2f2f2;
+	background-color: #ffffff;
+}
+
+QFrame#content_frame,
+CQssWidget#config_content_widget,
+QScrollArea#config_content_scroll_area
+{
+	background-color: #f2f2f2;
+}
+
+CMessageTipWidget,
+CNameEditBox,
+CPtzLockConfigBox,
+CCruiseConfigBox,
+CCycleGroupConfigBox,
+CCycleCameraConfigBox,
+CBroadcastClient,
+CBroadcastCamConfigBox
+{
+	border: 1px solid #e5e5e5;
+	background-color: white;
+}
+
+CModuleListWidget
+{
+	background-color: #262626;
+}
+
+CResourceView,
+CResourceTree,
+CPtzControl,
+CQssWidget#search_edit_widget
+{
+	background-color: #ffffff;
+}
+
+QLabel
+{
+	font: 12px Microsoft YaHei;
+}
+
+CLineEditLabel
+{
+	border: 1px solid #cccccc;
+}
+
+CLineEditLabel:disabled
+{
+	border: 1px solid #eaeaea;
+}
+
+CLineEditLabel QLineEdit
+{
+	border: none;
+	padding-left: 6px;
+	background-color: white;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+CLineEditLabel QLineEdit:focus
+{
+	color: #333333;
+}
+
+CLineEditLabel QLineEdit:disabled
+{
+	color: #7f7f7f;
+}
+
+CLineEditLabel QLabel
+{
+	font: 12px Microsoft YaHei;
+	background-color: #f5f5f5;
+	color: #7f7f7f;
+}
+
+QScrollArea
+{
+	border: none;
+	background-color: white;
+}
+
+CResourceTree,
+CPtzControl,
+CLayoutConfigBox
+{
+	background-color: white;
+}
+
+CLayoutConfigBox
+{
+	border: 1px solid #e5e5e5;
+}
+
+CLayoutConfigBox#layout_config_box[dark_mode=true]
+{
+	background-color: #3b3b3b;
+	border: 1px solid #2a2a2a;
+}
+
+QWidget#transparent_widget
+{
+	background-color: #e0f5f5f5;
+}
+
+CRecordFilterLabel,
+CRangeAdjustLabel
+{
+	background-color: #803c393c;
+}
+
+CRecordConfigBox
+{
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+}
+
+CTitleButtonLabel
+{
+	background-color: #f5f5f5;
+	border: 1px solid #e5e5e5;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+
+QFrame#content_frame[has_frame=true]
+{
+	border: 1px solid #333333;
+}
+
+QFrame#separator_line,
+QFrame#separator_line_2,
+QFrame#separator_line_3,
+QFrame#separator_line_4
+{
+	height: 16px;
+	width: 1px;
+	background-color: #1affffff;
+}
+
+QFrame#box_separator_line,
+QFrame#box_separator_line_2,
+QFrame#left_frame_splider_1,
+QFrame#left_frame_splider_2
+{
+	background-color: #e5e5e5;
+}
+
+CSeparatorLine
+{
+	background-color: #e5e5e5;
+}
+
+/* 标签 */
+QLabel#client_title_label
+{
+	color: #ffffff;
+	font: 16px Microsoft YaHei;
+}
+
+QLabel#client_icon_label,
+QLabel#config_title_icon_label
+{
+	background-image: url(:/VSSClient/Resources/dolphin.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QLabel#label_button_label
+{
+	color: #333333;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#config_client_title_label
+{
+	color: #ffffff;
+	font: 16px Microsoft YaHei;
+}
+
+QLabel#config_smal_title_label,
+QLabel#liveview_title_label
+{
+	font: 14px Microsoft YaHei;
+	color: #FFFFFF;
+}
+
+QLabel#config_title_spliter_label
+{
+	background: rgba(255,255,255,0.10);
+}
+
+QLabel#message_tip_label
+{
+	color: #333333;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#config_index_labe
+{
+	color: #4c4c4c;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#name_title_label,
+QLabel#left_title_label,
+QLabel#right_title_label
+{
+	color: #4c4c4c;
+	font: bold 14px Microsoft YaHei;
+}
+
+QLabel#config_index_label
+{
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+QLabel#config_index_label:disabled
+{
+	color: #7f7f7f;
+}
+
+QLabel#record_type_label,
+QLabel#record_position_label
+{
+	padding-left: 2px;
+	font: 12px Microsoft YaHei;
+	color: #333333;
+}
+
+QLabel#config_title_label
+{
+	color: #333333;
+	font: bold 14px Microsoft YaHei;
+}
+
+QLabel#advance_config_title_label
+{
+	color: #4c4c4c;
+	font: bold 12px Microsoft YaHei;
+}
+
+QLabel#advanced_config_label
+{
+	color: #7f7f7f;
+	font: 14px Microsoft YaHei;
+}
+
+QLabel#camera_name_label,
+QLabel#range_name_label
+{
+	color: #ffffff;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#inside_title_label
+{
+	color: #4c4c4c;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#step_label
+{
+	padding-left: 24px;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	background-color: #f2f2f2;
+	font: 14px Microsoft YaHei;
+	color: #333333;
+}
+
+QLabel#picture_label
+{
+	border-image: url(:/VSSClient/Resources/icon_default_picture.svg);
+}
+
+QLabel#attention_label
+{
+	color: #df0007;
+	font: 10px Microsoft YaHei;
+}
+
+/* 菜单 */
+QMenu
+{
+	background-color: white;
+	border: 1px solid #e5e5e5;
+	font: 12px Microsoft YaHei;
+}
+
+QMenu::item
+{
+	padding: 8px 24px;
+	color: #333333;
+}
+
+QMenu::item:selected
+{
+	background-color: #f2f2f2;
+}
+
+QMenu::item:pressed
+{
+	background-color: #ebebeb;
+}
+
+QMenu::item:disabled
+{
+	color: #7f7f7f;
+	background-color: white;
+}
+
+QMenu::indicator
+{
+	width: 16px;
+	height: 16px;
+	padding-left: 4px;
+}
+
+QMenu::indicator::non-exclusive:unchecked
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_checkbox_nor.svg);
+}
+
+QMenu::indicator::non-exclusive:unchecked:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_checkbox_hover.svg);
+}
+
+QMenu::indicator::non-exclusive:checked
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_checkbox_sel_01.svg);
+}
+
+QMenu::indicator::non-exclusive:checked:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_checkbox_sel_01.svg);
+}
+
+QMenu::indicator::exclusive:unchecked
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_radiobox_nor.svg);
+}
+
+QMenu::indicator::exclusive:unchecked:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_radiobox_hover.svg);
+}
+
+QMenu::indicator::exclusive:checked
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel.svg);
+}
+
+QMenu::indicator::exclusive:checked:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel.svg);
+}
+
+QMenu#save_as_menu,
+QMenu#voice_talk_menu
+{
+	background-color: #3B3B3B;
+	border: 1px solid #2a2a2a;
+	font: 12px Microsoft YaHei;
+}
+
+QMenu#save_as_menu::item,
+QMenu#voice_talk_menu::item
+{
+	padding: 8px 24px;
+	color: #c0ffffff;
+}
+
+QMenu#save_as_menu::item:selected,
+QMenu#voice_talk_menu::item:selected
+{
+	background-color: #1affffff;
+	color: #ffffff;
+}
+
+QMenu#save_as_menu::item:pressed,
+QMenu#voice_talk_menu::item:pressed
+{
+	background-color: #26000000;
+	color: #ffffff;
+}
+
+QMenu#save_as_menu::item:disabled
+{
+	/* color: #7f7f7f; */
+	/* background-color: white; */
+}
+
+/* 列表 */
+iVMSGUIToolkit--CListView
+{
+	font: 13px Microsoft YaHei;
+}
+
+CModuleListView
+{
+	border: none;
+	background-color: #262626;
+	font-weight: bold;
+}
+
+CModuleListView::focus
+{
+	outline: none;
+}
+
+CModuleListView::item
+{
+	padding-left: 10px;
+	color: #99ffffff;
+	background-color: transparent;
+}
+
+CModuleListView::item:hover
+{
+	color: #99ffffff;
+	background-color: #66000000;
+}
+
+CModuleListView::item:selected
+{
+	color: #ffffff;
+	background-color: #66000000;
+	background-image: url(:/VSSClient/Resources/icon_selected.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+QLabel#broadcast_label,
+QLabel#auxiliary_label
+{
+	font: bold 13px Microsoft YaHei;
+	color: #99ffffff;
+}
+
+CStyledListView#query_result_list_view::indicator
+{
+	width: 24px;
+	height: 24px;
+}
+
+CStyledListView#query_result_list_view
+{
+	border: none;
+}
+
+CStyledListView#query_result_list_view::item
+{
+	height: 56px;
+	color: #4c4c4c;
+}
+
+CStyledListView#query_result_list_view::item:hover,
+CStyledListView#query_result_list_view::branch:hover
+{
+   	background-color: #fdeeee;
+	color: #4c4c4c;
+}
+
+CStyledListView#query_result_list_view::item:selected,
+CStyledListView#query_result_list_view::branch:selected
+{
+   	background-color: #f5f5f5;
+	color: #4c4c4c;
+}
+
+CStyledListView#config_list_view
+{
+	border: none;
+	background-color: #f2f2f2;
+}
+
+CStyledListView#config_list_view::focus
+{
+	outline: none;
+}
+
+/*
+CStyledListView#config_list_view::item
+{
+	margin: -1px 0px;
+	padding-left: 46px;
+	color: #7f7f7f;
+	background-color: transparent;
+	height: 30px;
+	background-image: url(:/VSSClient/Resources/icon_list_non_selected.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+*/
+
+CStyledListView#config_list_view::item
+{
+	margin: -1px 0px;
+	padding-left: 16px;
+	color: #7f7f7f;
+	background-color: transparent;
+	height: 32px;
+	background-image: url(:/VSSClient/Resources/icon_list_non_selected.png);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+CStyledListView#config_list_view::item:hover
+{
+	color: #4c4c4c;
+	/*color: #7f7f7f;*/
+	/* background-color: #ebebeb; */
+}
+
+CStyledListView#config_list_view::item:selected
+{
+	color: #e72528;
+	/* background-color: #ebebeb; */
+	background-image: url(:/VSSClient/Resources/icon_selected.svg);
+}
+
+iVMSGUIToolkit--CListView#preset_list_view
+{
+	border: none;
+}
+
+iVMSGUIToolkit--CListView#preset_list_view::item
+{
+	height: 32px;
+	color: #4c4c4c;
+	padding-left: 8px;
+}
+
+iVMSGUIToolkit--CListView#preset_list_view::focus
+{
+	outline: none;
+}
+
+iVMSGUIToolkit--CListView#preset_list_view::disabled
+{
+	background-color: #fcfcfc;
+}
+
+iVMSGUIToolkit--CListView#preset_list_view::item:selected,
+iVMSGUIToolkit--CListView#preset_list_view::branch:selected
+{
+   	background-color: #ebebeb;
+	color: #4c4c4c;
+}
+
+iVMSGUIToolkit--CListView#preset_list_view::item:disabled
+{
+	color: #7f7f7f;
+}
+
+/* 选中状态 修改为黑色配色 原路径为/VSSClient/Resources/* */
+QTreeView::indicator:unchecked,
+QListView::indicator:unchecked
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_nor.svg);
+}
+
+QTreeView::indicator:unchecked:hover,
+QListView::indicator:unchecked:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_hover.svg);
+}
+
+QTreeView::indicator:unchecked:disabled,
+QListView::indicator:unchecked:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_dis.svg);
+}
+
+QTreeView::indicator:checked,
+QListView::indicator:checked
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_01.svg);
+}
+
+QTreeView::indicator:checked:hover,
+QListView::indicator:checked:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_01.svg);
+}
+
+QTreeView::indicator:checked:disabled,
+QListView::indicator:checked:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_01_dis.svg);
+}
+
+QTreeView::indicator:indeterminate,
+QListView::indicator:indeterminate
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+QTreeView::indicator:indeterminate:hover,
+QListView::indicator:indeterminate:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+QTreeView::indicator:indeterminate:disabled,
+QListView::indicator:indeterminate:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel_dis.svg);
+}
+
+CIconListView#layout_list_view[dark_mode=true]
+{
+	background-color: #3b3b3b;
+}
+
+CIconListView#layout_list_view[dark_mode=true]::item
+{
+	background-color: #3b3b3b;
+}
+
+CIconListView#layout_list_view[dark_mode=true]::item:hover
+{
+	background-color: #1affffff;
+}
+
+CIconListView#layout_list_view[dark_mode=true]::item:selected
+{
+	background-color: #26000000;
+}
+
+/* 表格 */
+iVMSGUIToolkit--CHeaderView
+{
+	font-family: Microsoft YaHei;
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:unchecked
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_nor.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:unchecked:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_hover.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:unchecked:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_dis.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:checked
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:checked:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:checked:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02_dis.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:indeterminate
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:indeterminate:hover
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+iVMSGUIToolkit--CHeaderView::indicator:indeterminate:disabled
+{
+	image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel_dis.svg);
+}
+
+
+iVMSGUIToolkit--CTableView
+{
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+}
+
+iVMSGUIToolkit--CTableView::item
+{
+	padding-left: 13px;
+	height: 34px;
+}
+
+iVMSGUIToolkit--CTableView::disabled
+{
+	background-color: #fcfcfc;
+}
+
+iVMSGUIToolkit--CTableView::item:hover
+{
+    background-color: #f0f0f0;
+	color: #333333;
+}
+
+iVMSGUIToolkit--CTableView::item:selected
+iVMSGUIToolkit--CTableView::branch:selected
+{
+    background-color: #e5e5e5;
+	color: #333333;
+}
+
+iVMSGUIToolkit--CTableView::item:disabled
+{
+	color: #7f7f7f;
+}
+
+/*CStyledTableView#route_table_view iVMSGUIToolkit--CHeaderView:section,*/
+CStyledTableView#camera_table_view iVMSGUIToolkit--CHeaderView:section
+{
+	background-color: #f2f2f2;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	border-image: none;
+	color: #333333;
+	height: 36px;
+	text-align: left;
+}
+
+CStyledTableView#route_table_view,
+CStyledTableView#camera_table_view
+{
+	border: none;
+	background-color: #ffffff;
+}
+
+CStyledTableView#route_table_view::indicator,
+CStyledTableView#camera_table_view::indicator
+{
+	width: 24px;
+	height: 24px;
+}
+
+CStyledTableView#route_table_view::item
+{
+	border-bottom: 1px solid #e5e5e5;
+	color: #4c4c4c;
+}
+
+CStyledTableView#camera_table_view::item
+{
+	padding-left: 13px;
+	height: 36px;
+	border-bottom: 1px solid #e5e5e5;
+	color: #4c4c4c;
+}
+
+CStyledTableView#route_table_view::disabled,
+CStyledTableView#camera_table_view::disabled
+{
+	background-color: #fcfcfc;
+}
+
+CStyledTableView#route_table_view::item:hover,
+CStyledTableView#camera_table_view::item:hover
+{
+    background-color: #fdeeee;
+	color: #4c4c4c;
+}
+
+CStyledTableView#route_table_view::item:selected,
+CStyledTableView#route_table_view::branch:selected,
+CStyledTableView#camera_table_view::item:selected,
+CStyledTableView#camera_table_view::branch:selected
+{
+    background-color: #f5f5f5;
+	color: #4c4c4c;
+}
+
+CStyledTableView#route_table_view::item:disabled,
+CStyledTableView#camera_table_view::item:disabled
+{
+	color: #7f7f7f;
+}
+
+
+/* 树 */
+CStyledTreeView
+{
+	font: 13px Microsoft YaHei;
+	background-color: #ffffff;
+}
+
+CStyledTreeView::item,
+CStyledTreeView::branch
+{
+	background-color: #ffffff;
+	color: #4c4c4c;
+	font-size: 13px;
+	height: 32px;
+}
+
+CStyledTreeView::item:hover,
+CStyledTreeView::branch:hover
+{
+	background-color: rgba(231, 37, 40, 0.08);
+}
+
+CStyledTreeView::item:selected,
+CStyledTreeView::branch:selected
+{
+	background-color: #EC5153;
+	color: #FFFFFF;
+}
+
+CStyledTreeView::item:disabled,
+CStyledTreeView::branch:disabled
+{
+	color: #7f7f7f;
+	background-color: #f2f2f2;
+}
+
+CStyledTreeView::branch:has-children:closed
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_pack_nor.svg);
+}
+
+CStyledTreeView::branch:has-children:closed:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_pack_sel.svg);
+}
+
+CStyledTreeView::branch:has-children:open
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_open_nor.svg);
+}
+
+CStyledTreeView::branch:has-children:open:selected
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_open_sel.svg);
+}
+
+/* 输入框 */
+iVMSGUIToolkit--CLineEdit,
+DateTimePicker
+{
+	font: 12px Microsoft YaHei;
+}
+
+iVMSGUIToolkit--CLineEdit,
+DateTimePicker
+{ 
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+	color: #7f7f7f;
+	padding-left:5px;
+	background-color: #ffffff;
+}
+
+iVMSGUIToolkit--CLineEdit:hover,
+DateTimePicker:hover
+{ 
+	border: 1px solid #666666;
+	color: #4c4c4c;
+}
+
+iVMSGUIToolkit--CLineEdit:focus,
+DateTimePicker:focus
+{ 
+	border: 1px solid #666666;
+	color: #4c4c4c; 
+}
+
+iVMSGUIToolkit--CLineEdit:disabled,
+DateTimePicker:disabled
+{ 
+	border: 1px solid #eaeaea;
+	color: #cccccc; 
+	background-color: #f3f3f3;
+}
+
+QLineEdit#directory_line_edit,
+QLineEdit#record_download_edit
+{
+	padding-left: 6px;
+	border: 1px solid #cccccc;
+	background-color: white;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+QLineEdit#directory_line_edit:hover
+{
+	/* border: 1px solid #666666; */
+}
+
+QLineEdit#directory_line_edit:focus,
+QLineEdit#record_download_edit:focus
+{
+	color: #333333;
+}
+
+QLineEdit#directory_line_edit:disabled,
+QLineEdit#record_download_edit:disabled
+{
+	color: #7f7f7f;
+	background-color: #f2f2f2;
+}
+
+QLineEdit#name_edit
+{
+	padding-left: 6px;
+	border: 1px solid #cccccc;
+	background-color: white;
+	font: 12px Microsoft YaHei;
+	color: #7f7f7f;
+}
+
+QLineEdit#name_edit:hover
+{
+	border-color: #4c4c4c;
+}
+
+QLineEdit#name_edit:focus
+{
+	color: #333333;
+}
+
+QLineEdit#name_edit:disabled
+{
+	border-color: #e5e5e5;
+	background-color: #f2f2f2;
+}
+
+QLineEdit#brightness_edit,
+QLineEdit#hue_edit,
+QLineEdit#contrast_edit,
+QLineEdit#saturation_edit
+{
+	padding-left: 8px;
+	border: 1px solid #cccccc;
+	background-color: white;
+	border-radius: 2px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+/* 按钮 */
+QPushButton:focus
+{
+	outline: none;
+}
+
+QPushButton#label_button
+{
+	font: 12px Microsoft YaHei;
+	color: #7f7f7f;
+	background: transparent;
+	text-align: center;
+	border: 2px solid transparent;
+}
+
+QPushButton#label_button:checked
+{
+	color: #333333;
+	border-bottom-color: #333333;
+}
+
+QPushButton#ok_button
+{
+	border: none;
+	color: #e41111;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+}
+
+QPushButton#cancel_button
+{
+	border: none;
+	color: #4c4c4c;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+}
+
+QPushButton#reset_button
+{
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	color: #7f7f7f;
+	font: bold 12px Microsoft YaHei;
+}
+
+QPushButton#reset_button:hover
+{
+	background-color: #f2f2f2;
+	color: #7f7f7f;
+}
+
+QPushButton#reset_button:pressed
+{
+	background-color: #ebebeb;
+	color: #7f7f7f;
+}
+
+QPushButton#cancle_button
+{
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	color: #7f7f7f;
+	font: bold 12px Microsoft YaHei;
+}
+
+QPushButton#cancle_button:hover
+{
+	background-color: #f2f2f2;
+	color: #7f7f7f;
+}
+
+QPushButton#reset_button:cancl_button:pressed
+{
+	background-color: #ebebeb;
+	color: #7f7f7f;
+}
+
+QToolButton#label_collapse_button
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/icon_down_small_nor.svg);
+}
+
+QToolButton#label_collapse_button:hover,
+QToolButton#label_collapse_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_down_small_hover.svg);
+}
+
+QToolButton#label_collapse_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/icon_down_small_dis.svg);
+}
+
+QToolButton#label_collapse_button:checked
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/icon_up_small_nor.svg);
+}
+
+QToolButton#label_collapse_button:checked:hover,
+QToolButton#label_collapse_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_up_small_hover.svg);
+}
+
+QToolButton#label_collapse_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/icon_up_small_dis.svg);
+}
+QToolButton#advanceconfig_collapse_button
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/CS_base_icon_pack_nor.svg);
+}
+
+QToolButton#advanceconfig_collapse_button:hover,
+QToolButton#advanceconfig_collapse_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/CS_base_icon_pack_nor.svg);
+}
+
+QToolButton#advanceconfig_collapse_button:checked
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/CS_base_icon_open_nor.svg);
+}
+
+QToolButton#advanceconfig_collapse_button:checked:hover,
+QToolButton#advanceconfig_collapse_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/CS_base_icon_open_nor.svg);
+}
+
+QPushButton#reset_to_default_button
+{
+	background-color: #ffffff;
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	color: #7f7f7f;
+	font: bold 12px Microsoft YaHei;
+}
+
+QPushButton#reset_to_default_button:hover
+{
+	background-color: #f2f2f2;
+	color: #7f7f7f;
+}
+
+QPushButton#reset_to_default_button:pressed
+{
+	background-color: #ebebeb;
+	color: #7f7f7f;
+}
+
+QPushButton#reset_to_default_button:disabled
+{
+	background-color: #f2f2f2;
+	color: #cccccc;
+}
+
+CCaptionButton
+{
+	/* border-radius: 15px; */
+	background: transparent;
+	border: 2px solid;
+	border-color: transparent;
+	border-radius: 0px;
+	font: bold 12px Microsoft YaHei;
+	color: #99ffffff;
+}
+
+CCaptionButton:hover
+{
+	color: #ccffffff;
+	border: 2px solid;
+	border-color: transparent;
+}
+
+CCaptionButton:checked
+{
+	border-top-color: #df0007;
+	color: #ffffff;
+	background-color: transparent;
+	/* background-repeat: no-repeat; */
+	/* background-position: top; */
+	/* background-image: url(:/VSSClient/Resources/icon_selbar_title.svg); */
+}
+
+CSelectButton
+{
+	background: #ffffff;
+	border: 1px solid #e8e8e8;
+	border-left-width: 0px;
+	border-radius: 0px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+CSelectButton[index="first_one"],
+CSelectButton[index="only_one"]
+{
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-left-width: 1px;
+}
+
+CSelectButton[index="last_one"],
+CSelectButton[index="only_one"]
+{
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+CSelectButton:hover
+{
+	background: #f2f2f2;
+	color: #e72528;
+	border: 1px solid #e8e8e8;
+	border-left-width: 0px;
+}
+
+CSelectButton[index="first_one"]:hover,
+CSelectButton[index="only_one"]:hover
+{
+	border-left-width: 1px;
+}
+
+CSelectButton:checked
+{
+	border: 1px solid #e72528;
+	color: #e72528;
+	background-color: #ffffff;
+}
+
+CSelectButton:disabled
+{
+	color: #7f7f7f;
+	border: 1px solid #eaeaea;
+	border-left-width: 0px;
+}
+
+CSelectButton[index="first_one"]:disabled,
+CSelectButton[index="only_one"]:disabled
+{
+	border-left-width: 1px;
+}
+
+CSelectButton:checked:disabled
+{
+	color: #80ffffff;
+	background-color: #80494d50;
+	border: none;
+}
+
+
+/*设置命令风格按钮*/
+iVMSGUIToolkit--CPushButton#tag_search_btn,
+iVMSGUIToolkit--CCommandButton
+{
+	color: white;
+	font: bold 12px Microsoft YaHei;
+	background-color: #e72528;
+	border-radius: 2px;
+	border: none;
+}
+iVMSGUIToolkit--CPushButton#tag_search_btn:hover,
+iVMSGUIToolkit--CPushButton#tag_search_btn:pressed,
+iVMSGUIToolkit--CCommandButton:hover,
+iVMSGUIToolkit--CCommandButton:pressed
+{
+    background-color: #e72528;
+	/* border: 1px solid #d11f24; */
+	border: none;
+	color: white;
+}
+iVMSGUIToolkit--CPushButton#tag_search_btn:disabled,
+iVMSGUIToolkit--CCommandButton:disabled
+{
+    background-color: #eec3c4;
+	/* border: 1px solid #eec3c4; */
+	border: none;
+	color: white;
+}
+
+/*设置次命令风格按钮*/
+iVMSGUIToolkit--CSecondCommandButton
+{
+	font: 12px Microsoft YaHei;
+	background: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 2px;
+    color: #7f7f7f;
+}
+iVMSGUIToolkit--CSecondCommandButton:hover
+{
+    background-color: #f2f2f2;
+	border: 1px solid #e5e5e5;
+	color: #7f7f7f;
+}
+
+iVMSGUIToolkit--CSecondCommandButton:pressed
+{
+    background-color: #ebebeb;
+	border: 1px solid #e5e5e5;
+	color: #7f7f7f;
+}
+iVMSGUIToolkit--CSecondCommandButton:disabled
+{
+    background-color: #f2f2f2;
+	border: 1px solid #e5e5e5;
+	color: #cccccc;
+}
+
+iVMSGUIToolkit--CPushButton#browse_button,
+QPushButton#record_download_btn
+{
+	color: #4c4c4c;
+	border: 1px solid #CCCCCC;
+	border-left-width: 0px;
+	border-radius: 0px;
+	background-color: #ffffff;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-more_nor.svg);
+	background-position: center;
+}
+
+iVMSGUIToolkit--CPushButton#browse_button:hover,
+QPushButton#record_download_btn:hover
+{
+	color: #4c4c4c;
+	border-left-width: 0px;
+	border-radius: 0px;
+	background-color: #f2f2f2;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-more_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#browse_button:pressed,
+QPushButton#record_download_btn:pressed
+{
+	color: #4c4c4c;
+	border-left-width: 0px;
+	border-radius: 0px;
+	background-color: #ebebeb;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-more_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#browse_button:disabled,
+QPushButton#record_download_btn:disabled
+{
+	color: #7f7f7f;
+	border-left-width: 0px;
+	border-radius: 0px;
+	background-color: #80f5f5f5;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-more_dis.svg);
+}
+
+iVMSGUIToolkit--CPushButton#openfolder_button
+{
+	color: #4c4c4c;
+	border: 1px solid #CCCCCC;
+	border-radius: 1px;
+	background-color: #FFFFFF;
+	/*font: bold 12px Microsoft YaHei;*/
+	background-image: url(:/VSSClient/Resources/CS-base-icon-openfolder_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#openfolder_button:hover
+{
+	color: #4c4c4c;
+	border-radius: 1px;
+	background-color: #f2f2f2;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-openfolder_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#openfolder_button:pressed
+{
+	color: #4c4c4c;
+	border-radius: 1px;
+	background-color: #ebebeb;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-openfolder_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#openfolder_button:disabled
+{
+	color: #7f7f7f;
+	border-radius: 1px;
+	background-color: #80f5f5f5;
+	background-image: url(:/VSSClient/Resources/CS-base-icon-openfolder_dis.svg);
+}
+
+iVMSGUIToolit--CToolIconButton 
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	text-align: center;
+	background-position: center;
+}
+
+iVMSGUIToolkit--CIconStatusButton 
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+iVMSGUIToolkit--CIconStatusButton:menu-indicator
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_more_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton:menu-indicator:hover,
+iVMSGUIToolkit--CIconStatusButton:menu-indicator:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_more_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton:menu-indicator:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_more_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton:hover
+{
+	background-color: #1affffff;
+}
+
+iVMSGUIToolkit--CIconStatusButton:pressed
+{
+	background-color: #26000000;
+}
+
+iVMSGUIToolkit--CIconStatusButton#close_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/Close_hov.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#close_button:hover,
+iVMSGUIToolkit--CIconStatusButton#close_button:pressed
+{
+	background-color: #66000000;
+}
+
+iVMSGUIToolkit--CIconStatusButton#minimize_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/Minimize_hov.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#max_restore_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/Maximize_hov.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#max_restore_button:checked
+{
+	background-image: url(:/VSSClient/Resources/Restore_hov.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#minimize_button:hover,
+iVMSGUIToolkit--CIconStatusButton#minimize_button:pressed,
+iVMSGUIToolkit--CIconStatusButton#max_restore_button:hover,
+iVMSGUIToolkit--CIconStatusButton#max_restore_button:pressed
+{
+	background-color: #20ffffff;
+}
+
+iVMSGUIToolkit--CIconStatusButton#box_close_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/close.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#box_close_button:hover,
+iVMSGUIToolkit--CIconStatusButton#box_close_button:pressed
+{
+	background-color: #66000000;
+}
+
+iVMSGUIToolkit--CIconStatusButton#expand_button
+{
+	border: inherit;
+	border-radius: 0px;
+	background-color: #262626;
+	background-image: url(:/VSSClient/Resources/icon_menu_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#expand_button:hover,
+iVMSGUIToolkit--CIconStatusButton#expand_button:pressed
+{
+	background-color: #66000000;
+	background-image: url(:/VSSClient/Resources/icon_menu_hover.svg);
+}
+
+QPushButton#auxiliary_button
+{
+	padding-left: 40px;
+	text-align: left;
+	font: bold 13px Microsoft YaHei;
+	color: #99ffffff;
+	border: none;
+	border-left: 16px solid transparent;
+	background: transparent;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/icon_add_screen_nor.svg);
+}
+
+QPushButton#auxiliary_button:hover,
+QPushButton#auxiliary_button:pressed
+{
+	background-color: #66000000;
+	background-image: url(:/VSSClient/Resources/icon_add_screen_hover.svg);
+	color: #ffffff;
+}
+
+QPushButton#broadcast_button
+{
+	padding-left: 40px;
+	text-align: left;
+	font: bold 13px Microsoft YaHei;
+	color: #99ffffff;
+	border: none;
+	border-left: 16px solid transparent;
+	background: transparent;
+	background-position: center left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/icon_broadcast_nor.svg);
+}
+
+QPushButton#broadcast_button:hover,
+QPushButton#broadcast_button:pressed
+{
+	background-color: #66000000;
+	background-image: url(:/VSSClient/Resources/icon_broadcast_hover.svg);
+	color: #ffffff;
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button:hover,
+iVMSGUIToolkit--CIconStatusButton#collapse_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button:checked
+{
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#collapse_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:hover,
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_right_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:checked
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#collapse_button_playback:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_expand_left_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#mute_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_mute_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#mute_button:hover,
+iVMSGUIToolkit--CIconStatusButton#mute_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_mute_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#mute_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_mute_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_button:hover,
+iVMSGUIToolkit--CIconStatusButton#capture_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_all_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_all_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_all_button:hover,
+iVMSGUIToolkit--CIconStatusButton#capture_all_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_all_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#capture_all_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_capture_all_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#switch_off_time_selection_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_cancel_time_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#switch_off_time_selection_button:hover,
+iVMSGUIToolkit--CIconStatusButton#switch_off_time_selection_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_cancel_time_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#switch_off_time_selection_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_cancel_time_dis.svg);
+}
+
+PlaybackToolbar > QPushButton#time_selection_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_time_nor.svg);
+}
+
+PlaybackToolbar > QPushButton#time_selection_button:hover,
+PlaybackToolbar > QPushButton#time_selection_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_time_hover.svg);
+}
+
+PlaybackToolbar > QPushButton#time_selection_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_time_dis.svg);
+}
+
+
+iVMSGUIToolkit--CIconStatusButton#save_as_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_save_wider_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#save_as_button:hover,
+iVMSGUIToolkit--CIconStatusButton#save_as_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_save_wider_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#save_as_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_save_wider_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#close_all_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_all_close_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#close_all_button:hover,
+iVMSGUIToolkit--CIconStatusButton#close_all_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_all_close_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#close_all_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_all_close_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#layout_config_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/icon_multi_screen_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#layout_config_button:hover,
+iVMSGUIToolkit--CIconStatusButton#layout_config_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_multi_screen_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_uncheck_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:hover,
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_uncheck_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_uncheck_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:checked
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_check_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_check_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#adaptation_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_adapt_check_dis.svg);
+}
+	
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_fullscreen_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button:hover,
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_fullscreen_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button:checked
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_restore_screen_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#fullscreen_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_restore_screen_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:checked
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_synchronous_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_synchronous_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_synchronous_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_asynchronous_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:hover,
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_asynchronous_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#syn_asyn_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_asynchronous_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#system_config_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_setup_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#system_config_button:hover,
+iVMSGUIToolkit--CIconStatusButton#system_config_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_setup_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#system_config_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_setup_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_next_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button:hover,
+iVMSGUIToolkit--CIconStatusButton#play_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button:checked
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#play_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#play_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#previous_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/single-screen-icon_previous_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#previous_button:hover,
+iVMSGUIToolkit--CIconStatusButton#previous_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_previous_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#previous_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_previous_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#next_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/single-screen-icon_next_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#next_button:hover,
+iVMSGUIToolkit--CIconStatusButton#next_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_next_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#next_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_next_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#stop_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/single-screen-icon_stop_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#stop_button:hover,
+iVMSGUIToolkit--CIconStatusButton#stop_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_stop_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#stop_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/single-screen-icon_stop_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#download_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_download_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#download_button:hover,
+iVMSGUIToolkit--CIconStatusButton#download_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_download_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#download_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_download_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_down_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_backward_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_down_button:hover,
+iVMSGUIToolkit--CIconStatusButton#speed_down_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_backward_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_down_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_backward_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_up_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_forward_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_up_button:hover,
+iVMSGUIToolkit--CIconStatusButton#speed_up_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_forward_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#speed_up_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_fast_forward_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_frame_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_pre_frame_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_frame_button:hover,
+iVMSGUIToolkit--CIconStatusButton#backward_frame_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pre_frame_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_frame_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pre_frame_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_frame_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_next_frame_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_frame_button:hover,
+iVMSGUIToolkit--CIconStatusButton#forward_frame_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_frame_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_frame_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_frame_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_previous_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:hover,
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_previous_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_previous_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:checked
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#backward_play_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_next_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:hover,
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_next_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:checked
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:checked:hover,
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:checked:pressed
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#forward_play_button:checked:disabled
+{
+	background-image: url(:/VSSClient/Resources/vss_icon_pause_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_newview_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_button:hover,
+iVMSGUIToolkit--CIconStatusButton#add_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_newview_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_newview_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_group_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_newfolder_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_group_button:hover,
+iVMSGUIToolkit--CIconStatusButton#add_group_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_newfolder_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#add_group_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_newfolder_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#edit_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_edit_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#edit_button:hover,
+iVMSGUIToolkit--CIconStatusButton#edit_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_edit_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#edit_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_edit_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#delete_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_delete_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#delete_button:hover,
+iVMSGUIToolkit--CIconStatusButton#delete_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_delete_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#delete_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_delete_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#search_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_search_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#search_button:hover,
+iVMSGUIToolkit--CIconStatusButton#search_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_search_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#search_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_search_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_up_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_up_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_up_button:hover,
+iVMSGUIToolkit--CIconStatusButton#lift_up_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_up_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_up_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_up_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_down_button
+{
+	border: inherit;
+	background-image: url(:/VSSClient/Resources/view_icon_down_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_down_button:hover,
+iVMSGUIToolkit--CIconStatusButton#lift_down_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/view_icon_down_sel.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#lift_down_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/view_icon_down_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#up_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzUp_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#up_button:hover,
+iVMSGUIToolkit--CToolPushButton#up_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUp_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#up_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUp_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#down_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzDown_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#down_button:hover,
+iVMSGUIToolkit--CToolPushButton#down_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDown_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#down_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDown_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzLeft_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_button:hover,
+iVMSGUIToolkit--CToolPushButton#left_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzLeft_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzLeft_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzRight_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_button:hover,
+iVMSGUIToolkit--CToolPushButton#right_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzRight_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzRight_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_up_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzUpLeft_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_up_button:hover,
+iVMSGUIToolkit--CToolPushButton#left_up_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUpLeft_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_up_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUpLeft_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_up_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzUpRight_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_up_button:hover,
+iVMSGUIToolkit--CToolPushButton#right_up_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUpRight_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_up_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzUpRight_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_down_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzDownLeft_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_down_button:hover,
+iVMSGUIToolkit--CToolPushButton#left_down_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDownLeft_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#left_down_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDownLeft_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_down_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_PtzDownRight_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_down_button:hover,
+iVMSGUIToolkit--CToolPushButton#right_down_button:pressed
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDownRight_hov_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#right_down_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_PtzDownRight_dis_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#middle_button
+{
+	border: none;
+	background: transparent;
+	border-image: url(:/Public/PTZ/PTZ_Middle_nor_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#middle_button:hover,
+iVMSGUIToolkit--CToolPushButton#middle_button:pressed,
+iVMSGUIToolkit--CToolPushButton#middle_button:checked
+{
+	border-image: url(:/Public/PTZ/PTZ_Middle_sel_1.png);
+}
+
+iVMSGUIToolkit--CToolPushButton#middle_button:disabled
+{
+	border-image: url(:/Public/PTZ/PTZ_Middle_dis_1.png);
+}
+
+/* iVMSGUIToolkit--CToolPushButton#middle_button:checked */
+/* { */
+	/* border-image: url(:/Public/PTZ/PTZ_Middle_sel_1.png); */
+/* } */
+
+/* iVMSGUIToolkit--CToolPushButton#middle_button:checked:hover, */
+/* iVMSGUIToolkit--CToolPushButton#middle_button:checked:pressed */
+/* { */
+	/* border-image: url(:/Public/PTZ/PTZ_Middle_sel_1.png); */
+/* } */
+
+/* iVMSGUIToolkit--CToolPushButton#middle_button:checked:disabled */
+/* { */
+	/* border-image: url(:/Public/PTZ/PTZ_Middle_dis_1.png); */
+/* } */
+
+iVMSGUIToolkit--CIconStatusButton#record_filter_button
+{
+	border: inherit;
+	width: 24px;
+	height: 24px;
+	background-image: url(:/VSSClient/Resources/icon_filter_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#record_filter_button:hover,
+iVMSGUIToolkit--CIconStatusButton#record_filter_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_filter_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#record_filter_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/icon_filter_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#enlarge_range_button
+{
+	border: inherit;
+	width: 24px;
+	height: 24px;
+	background-image: url(:/VSSClient/Resources/icon_enlarge_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#enlarge_range_button:hover,
+iVMSGUIToolkit--CIconStatusButton#enlarge_range_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_enlarge_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#enlarge_range_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/icon_enlarge_dis.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#reduce_range_button
+{
+	border: inherit;
+	width: 24px;
+	height: 24px;
+	background-image: url(:/VSSClient/Resources/icon_reduce_nor.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#reduce_range_button:hover,
+iVMSGUIToolkit--CIconStatusButton#reduce_range_button:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_reduce_hover.svg);
+}
+
+iVMSGUIToolkit--CIconStatusButton#reduce_range_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/icon_reduce_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_off_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:hover
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_off_hover.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:pressed
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_off_press.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:disabled
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_off_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:checked
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_on_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:checked:hover
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_on_hover.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:checked:pressed
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_on_press.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#config_on_off_button:checked:disabled
+{
+	border: none;
+	border-image: url(:/VSSClient/Resources/icon_on_dis.svg);
+}
+
+iVMSGUIToolkit--CPushButton#calendar_button
+{
+	width: 144px;
+	border: none;
+	height: 32px;
+	background-color: #484848;
+	font: bold 12px Microsoft YaHei;
+	color: #ffffff;
+}
+
+QWidget#speed_adjust_widget
+{
+	border-radius: 12px;
+	background-color: #2c2c2c;
+}
+
+iVMSGUIToolkit--CPushButton#current_speed_button
+{
+	border: none;
+	font: 12px Microsoft YaHei;
+	color: #ffffff;
+	background: transparent;
+}
+
+QLabel#lock_record_label,
+QLabel#record_downloader_title,
+QLabel#tag_record_label
+{
+	border: none;
+	font: bold 16px Microsoft YaHei;
+	color: #333333;
+	background: transparent;
+}
+
+QLabel#lock_record_second_title_label
+{
+	border: none;
+	font: 12px Microsoft YaHei;
+	background: transparent;
+	color: #7b879e;
+}
+
+QLabel#lock_record_icon_label
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/vss_icon_info.svg);
+}
+
+QLabel#validity_label,
+QLabel#dest_dir_label
+{
+	border: none;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+
+QLabel#valid_until_label
+{
+	border: none;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+	color: #ff6600;
+}
+
+iVMSGUIToolkit--CPushButton#current_speed_button:hover,
+iVMSGUIToolkit--CPushButton#current_speed_button:pressed
+{
+	background-color: #20ffffff;
+}
+
+iVMSGUIToolkit--CPushButton#current_speed_button:disabled
+{
+	color: #717176;
+}
+
+iVMSGUIToolkit--CFrame#zoom_frame,
+iVMSGUIToolkit--CFrame#focus_frame,
+iVMSGUIToolkit--CFrame#iris_frame
+{
+	border-image: url(:/Public/PTZ/PTZ_ZoomInOut_bg_1.png);
+}
+
+iVMSGUIToolkit--CFrame#append_frame
+{
+	border: 1px solid #cfcfcf;
+}
+
+iVMSGUIToolkit--CFrame#append_frame iVMSGUIToolkit--CLabel
+{
+	background-color: #cfcfcf;
+}
+
+iVMSGUIToolkit--CToolButton#focus_out_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_behind_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#focus_out_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_behind_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#focus_out_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_behind_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#focus_in_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_front_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#focus_in_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_front_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#focus_in_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_focus_front_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_out_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_shrink_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_out_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_shrink_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_out_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_shrink_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_in_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_enlarge_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_in_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_enlarge_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#zoom_in_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_enlarge_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_in_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_large_ring_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_in_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_large_ring_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_in_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_large_ring_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_out_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_small_ring_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_out_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_small_ring_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#iris_out_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_small_ring_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#three_d_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_3D_enlarge_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#three_d_button:hover,
+iVMSGUIToolkit--CToolButton#three_d_button:checked
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_3D_enlarge_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#three_d_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_3D_enlarge_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#one_key_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_region_focus_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#one_key_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_region_focus_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#one_key_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_region_focus_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#reset_pos_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_area_exposure_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#reset_pos_button:hover
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_area_exposure_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#reset_pos_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_area_exposure_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#light_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_light_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#light_button:hover,
+iVMSGUIToolkit--CToolButton#light_button:checked
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_light_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#light_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_light_dis.svg);
+}
+iVMSGUIToolkit--CToolButton#wiper_button
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_wiper_nor.svg);
+}
+iVMSGUIToolkit--CToolButton#wiper_button:hover,
+iVMSGUIToolkit--CToolButton#wiper_button:checked
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_wiper_hover.svg);
+}
+iVMSGUIToolkit--CToolButton#wiper_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/ptz_icon_wiper_dis.svg);
+}
+
+iVMSGUIToolkit--CToolButton#ptz_lock_button
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/ptz_icon_unlock_nor.svg);
+}
+
+iVMSGUIToolkit--CToolButton#ptz_lock_button:hover
+{
+	background-image: url(:/VSSClient/Resources/ptz_icon_unlock_sel.svg);
+}
+iVMSGUIToolkit--CToolButton#ptz_lock_button:checked
+{
+	background-image: url(:/VSSClient/Resources/ptz_icon_lock_sel.svg);
+}
+iVMSGUIToolkit--CToolButton#ptz_lock_button:disabled
+{
+	background-image: url(:/VSSClient/Resources/ptz_icon_lock_dis.svg);
+}
+
+/* 复选框 修改为黑色配色 原路径为/VSSClient/Resources/*/
+iVMSGUIToolkit--CCheckBox
+{
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+iVMSGUIToolkit--CCheckBox:disabled
+{
+	color: #7f7f7f;
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:checked
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:checked:hover
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:checked:disabled
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_sel_02_dis.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:unchecked
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_nor.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:unchecked:hover
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_hover.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:unchecked:disabled
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_dis.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:indeterminate
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:indeterminate:hover
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel.svg);
+}
+
+iVMSGUIToolkit--CCheckBox::indicator:indeterminate:disabled
+{
+    image: url(:/VSSClient/Resources/CheckRadio/CS_base_icon_checkbox_halfsel_dis.svg);
+}
+
+iVMSGUIToolkit--CCheckBox#select_all_check_box
+{
+	padding-left: 3px;
+}
+
+/* 单选框 */
+iVMSGUIToolkit--CRadioButton
+{
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+iVMSGUIToolkit--CRadioButton::indicator::checked 
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator:checked:hover
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator:checked:pressed
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator::checked:disabled
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_sel_dis.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator::unchecked
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_nor.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator:unchecked:hover
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_hover.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator:unchecked:pressed
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_hover.svg);
+}
+
+iVMSGUIToolkit--CRadioButton::indicator::unchecked:disabled
+{
+    image: url(:/VSSClient/Resources/CS_base_icon_radiobox_dis.svg);
+}
+
+/* 滑动条 */
+iVMSGUIToolkit--CSlider::groove:horizontal
+{
+	background: transparent;
+	height: 2px;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+iVMSGUIToolkit--CSlider::add-page:horizontal
+{
+	background-color: #e5e5e5;
+	margin-right: 8px;
+}
+
+iVMSGUIToolkit--CSlider::sub-page:horizontal
+{
+	background-color: #e72528;
+	margin-left: 8px;
+}
+
+iVMSGUIToolkit--CSlider::sub-page:horizontal:disabled
+{
+	background-color: #cccccc;
+}
+
+iVMSGUIToolkit--CSlider::handle:horizontal
+{
+	margin: -8px -8px -8px -8px;
+	width: 16px;
+	image: url(:/VSSClient/Resources/CS_base_icon_slider_nor.svg);
+}
+
+iVMSGUIToolkit--CSlider::handle:horizontal:hover
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_slider_hover.svg);
+}
+
+iVMSGUIToolkit--CSlider::handle:horizontal:pressed
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_slider_press.svg);
+}
+
+iVMSGUIToolkit--CSlider::handle:horizontal:disabled
+{
+	image: url(:/VSSClient/Resources/CS_base_icon_slider_dis.svg);
+}
+
+/* 组合框 */
+iVMSGUIToolkit--CComboBox
+{
+	font-family: Microsoft YaHei; 
+	font-size: 12px;
+    
+	color: #4c4c4c;
+	border: 1px solid #cccccc;
+	padding-left:6px;
+}
+
+iVMSGUIToolkit--CComboBox:hover,
+iVMSGUIToolkit--CComboBox:focus,
+iVMSGUIToolkit--CComboBox:selected
+{
+	color: #333333;
+	border: 1px solid #666666;
+}
+
+iVMSGUIToolkit--CComboBox:disabled
+{
+	color: #cccccc;
+	border: 1px solid #eaeaea;
+	background-color: #f3f3f3;
+}
+
+iVMSGUIToolkit--CComboBox::down-arrow
+{
+	image: url(:/VSSClient/Resources/dolphin-base_icon_down_nor.svg);
+}
+iVMSGUIToolkit--CComboBox::down-arrow:hover
+{
+	image: url(:/VSSClient/Resources/dolphin-base_icon_down_hover.svg);
+}
+iVMSGUIToolkit--CComboBox::down-arrow:disabled, 
+iVMSGUIToolkit--CComboBox::down-arrow:off 
+{
+	image: url(:/VSSClient/Resources/dolphin-dolphin-base_icon_down_dis.svg);
+}
+
+iVMSGUIToolkit--CComboBox QAbstractItemView
+{
+	outline: none;
+	color: #4c4c4c;
+	border: 1px solid #cccccc;
+}
+
+iVMSGUIToolkit--CComboBox QAbstractItemView::item
+{
+	background-color: white;
+	padding-left:6px;
+}
+
+iVMSGUIToolkit--CComboBox QAbstractItemView::item:hover
+{
+	background-color: rgba(231, 37, 40, 0.08);
+}
+
+iVMSGUIToolkit--CComboBox QAbstractItemView::item:selected
+{
+    background-color: rgba(231, 37, 40, 0.08);
+	color: #333333;
+}
+
+iVMSGUIToolkit--CComboBox::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    padding-right:2px;
+    border-left-style: solid;
+    border-left-color: darkgray;
+    border-left-width: 0px;
+}
+
+/* The combobox arrow is on when the popup is open. */
+iVMSGUIToolkit--CComboBox::down-arrow:on
+{
+    position: relative;
+    top: 0px;
+    left: 0px;
+	image: url(:/VSSClient/Resources/dolphin-base_icon_up_on.svg);
+}
+
+/* 下面是重载来的 */
+iVMSGUIToolkit--CBaseDialogWithBottom QWidget#m_pWithBottomWidget
+{
+    background-color: white;
+	border:none;
+}
+
+iVMSGUIToolkit--CTitleLabel,
+iVMSGUIToolkit--CBaseDialog iVMSGUIToolkit--CTitleWidget#m_pTitleWidget
+{
+	background-color: #333333;
+}
+
+iVMSGUIToolkit--CBaseDialog QWidget#m_pNoBottomWidget
+{
+    background-color: white;
+	border: none;
+}
+
+iVMSGUIToolkit--CBaseDialog iVMSGUIToolkit--CTitleLabel
+{
+    color: white;
+}
+
+iVMSGUIToolkit--CFancyContainerWidget QPushButton#ptr_btn_close
+{
+	border: hidden; 
+	background: transparent;
+}
+
+iVMSGUIToolkit--CFancyContainerWidget
+{
+	border: solid 1px #1a1a1a; 
+	background-color: #1f1f1f;
+}
+
+iVMSGUIToolkit--CFancyDialog QLabel
+{
+	border: hidden; 
+	background: transparent;
+
+	color: white; 
+	font: bold;
+	font-size: 16px;
+	font-family: "Segoe UI Semibold"
+}
+
+iVMSGUIToolkit--CFrame#m_pContentFrame
+{
+    background-color: white;
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+}
+
+iVMSGUIToolkit--CFrame#m_pWithBottomFrame
+{
+    background-color: white;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+}
+
+iVMSGUIToolkit--CFrame#m_pBottomFrame
+{
+    background-color: white;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+}
+
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn,
+iVMSGUIToolkit--CPushButton#m_pNormalSizeBtn,
+iVMSGUIToolkit--CPushButton#m_pFullSizeBtn,
+iVMSGUIToolkit--CPushButton#m_pDialogMinBtn
+{
+	 border: none;
+	 background: transparent;
+	 color: #7f7f7f;
+}
+
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:hover,
+iVMSGUIToolkit--CPushButton#m_pNormalSizeBtn:hover,
+iVMSGUIToolkit--CPushButton#m_pFullSizeBtn:hover,
+iVMSGUIToolkit--CPushButton#m_pDialogMinBtn:hover,
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:pressed,
+iVMSGUIToolkit--CPushButton#m_pNormalSizeBtn:pressed,
+iVMSGUIToolkit--CPushButton#m_pFullSizeBtn:pressed,
+iVMSGUIToolkit--CPushButton#m_pDialogMinBtn:pressed
+{
+    color: #ffffff;
+	background:red;
+}
+
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:disabled,
+iVMSGUIToolkit--CPushButton#m_pNormalSizeBtn:disabled,
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:disabled,
+iVMSGUIToolkit--CPushButton#m_pFullSizeBtn:disabled,
+iVMSGUIToolkit--CPushButton#m_pDialogMinBtn:disabled
+{
+    color: #cccccc;
+}
+
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn
+{
+	background: transparent;
+	border-image: url(:/VSSClient/Resources/Close_nor.svg);
+}
+
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:hover,
+iVMSGUIToolkit--CPushButton#m_pDialogCloseBtn:pressed
+{
+	background-color: #66000000;
+	border-image: url(:/VSSClient/Resources/Close_hov.svg);
+}
+
+QPushButton#pattern_record_button,
+QPushButton#pattern_play_button
+{
+	height: 28px;
+	border: 1px solid #cfcfcf;
+	border-radius: 15px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+QPushButton#pattern_record_button:checked,
+QPushButton#pattern_play_button:checked
+{
+	border-color: #e41111;
+	color: #e41111;
+}
+
+QPushButton#pattern_record_button:disabled,
+QPushButton#pattern_play_button:disabled
+{
+	color: #7f7f7f;
+}
+
+QPushButton#pattern_record_button:checked:disabled,
+QPushButton#pattern_play_button:checked:disabled
+{
+	border-color: #80e41111;
+	color: #80e41111;
+}
+
+QToolButton#preset_play_button,
+QToolButton#cruise_play_button
+{
+	border-image: url(:/VSSClient/Resources/dl_icon_start_nor.svg);
+}
+
+QToolButton#preset_play_button:disabled,
+QToolButton#cruise_play_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/dl_icon_start_dis.svg);
+}
+
+QToolButton#cruise_play_button:checked
+{
+	border-image: url(:/VSSClient/Resources/dl_icon_pause_nor.svg);
+}
+
+QToolButton#cruise_play_button:checked:disabled
+{
+	border-image: url(:/VSSClient/Resources/dl_icon_pause_dis.svg);
+}
+
+QToolButton#preset_edit_button,
+QToolButton#cruise_edit_button
+{
+	border-image: url(:/VSSClient/Resources/view_icon_edit_nor.svg);
+}
+
+QToolButton#preset_edit_button:hover,
+QToolButton#preset_edit_button:pressed,
+QToolButton#cruise_edit_button:hover,
+QToolButton#cruise_edit_button:pressed
+{
+	border-image: url(:/VSSClient/Resources/view_icon_edit_sel.svg);
+}
+
+QToolButton#preset_edit_button:disabled,
+QToolButton#cruise_edit_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/view_icon_edit_dis.svg);
+}
+
+
+QToolButton#preset_delete_button,
+QToolButton#cruise_delete_button
+{
+	border-image: url(:/VSSClient/Resources/view_icon_delete_nor.svg);
+}
+
+QToolButton#preset_delete_button:hover,
+QToolButton#preset_delete_button:pressed,
+QToolButton#cruise_delete_button:hover,
+QToolButton#cruise_delete_button:pressed
+{
+	border-image: url(:/VSSClient/Resources/view_icon_delete_sel.svg);
+}
+
+QToolButton#preset_delete_button:disabled,
+QToolButton#cruise_delete_button:disabled
+{
+	border-image: url(:/VSSClient/Resources/view_icon_delete_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#add_button
+{
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/view_icon_newview_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#add_button:hover,
+iVMSGUIToolkit--CToolPushButton#add_button:pressed
+{
+	color: #333333;
+	background-image: url(:/VSSClient/Resources/view_icon_newview_sel.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#add_button:disabled
+{
+	color: #7f7f7f;
+	background-image: url(:/VSSClient/Resources/view_icon_newview_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#delete_button
+{
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/view_icon_delete_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#delete_button:hover,
+iVMSGUIToolkit--CToolPushButton#delete_button:pressed
+{
+	color: #333333;
+	background-image: url(:/VSSClient/Resources/view_icon_delete_sel.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#delete_button:disabled
+{
+	color: #7f7f7f;
+	background-image: url(:/VSSClient/Resources/view_icon_delete_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_up_button
+{
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/view_icon_up_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_up_button:hover,
+iVMSGUIToolkit--CToolPushButton#lift_up_button:pressed
+{
+	color: #333333;
+	background-image: url(:/VSSClient/Resources/view_icon_up_sel.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_up_button:disabled
+{
+	color: #7f7f7f;
+	background-image: url(:/VSSClient/Resources/view_icon_up_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_down_button
+{
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/view_icon_down_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_down_button:hover,
+iVMSGUIToolkit--CToolPushButton#lift_down_button:pressed
+{
+	color: #333333;
+	background-image: url(:/VSSClient/Resources/view_icon_down_sel.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#lift_down_button:disabled
+{
+	color: #7f7f7f;
+	background-image: url(:/VSSClient/Resources/view_icon_down_dis.svg);
+}
+
+
+/* Tab标签页 */
+/*Tab主体边框隐藏*/
+iVMSGUIToolkit--CTabWidget::pane 
+{
+    border: 1px solid #e5e5e5;
+	border-top-width: 0px;
+}
+/*Tab-Bar风格*/
+iVMSGUIToolkit--CTabBar::tab
+{
+	height: 100px;
+	font-family: "Microsoft YaHei"; 
+	font-size: 12px;
+	background-color: #f5f5f5;
+	border: none;
+	border-style: solid;
+	border-color: #e5e5e5;
+	border-top-width: 1px;
+	color: #7f7f7f;
+	border-radius: none;
+}
+
+iVMSGUIToolkit--CTabBar::tab:hover
+{
+	/* background-color: #ebebeb; */
+}
+iVMSGUIToolkit--CTabBar::tab:selected
+{ 
+	background-color: #ffffff;
+	/* color: #e41111; */
+	/* border-top: 2px solid #e41111; */
+	border-bottom-width: 0px;
+	border-radius: none;
+	font-family: "Microsoft YaHei"; 
+}
+iVMSGUIToolkit--CTabBar::tab::disabled
+{ 
+	color: #cccccc;
+}
+iVMSGUIToolkit--CTabBar::tab:selected:disabled
+{ 
+	color: #7f7f7f;
+	/* border-top-color: #f8c3c3; */
+}
+iVMSGUIToolkit--CTabBar::tab:first
+{
+	border-left-width: 1px;
+}
+
+iVMSGUIToolkit--CTabBar::tab:only-one
+{
+	border-left-width: 1px;
+	border-right-width: 1px;
+}
+
+iVMSGUIToolkit--CTabBar::tab:last
+{
+	border-right-width: 1px;
+}
+
+/**/
+iVMSGUIToolkit--CTabWidget#query_tab_widget::pane 
+{
+    border: none;
+}
+/*Tab-Bar风格*/
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab
+{
+	font: 12px Microsoft YaHei;
+	background-color: #ffffff;
+	border-radius: none;
+	border: none;
+	border-bottom: 1px solid #e5e5e5;
+	color: #7f7f7f;
+	margin-top: -1px;
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:hover
+{
+	/* background-color: #ebebeb; */
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:selected
+{
+	background-color: #ffffff;
+	border-radius: none;
+	border: none;
+	text-align: center;
+	border-bottom: 1px solid #333333;
+	color: #333333;
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab::disabled
+{ 
+	color: #cccccc;
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:selected:disabled
+{ 
+	color: #7f7f7f;
+	/* border-top-color: #f8c3c3; */
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:first
+{
+	/* border-left-width: 1px; */
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:only-one
+{
+	/* border-left-width: 1px; */
+	/* border-right-width: 1px; */
+}
+
+iVMSGUIToolkit--CTabWidget#query_tab_widget iVMSGUIToolkit--CTabBar::tab:last
+{
+	/* border-right-width: 1px; */
+}
+
+
+/* 滚动条 */
+iVMSGUIToolkit--CScrollBar:vertical
+{ 
+    background-color: #ffffff;
+}
+
+CPlaybackToolbar
+{
+	background-color: #3d3d3d;
+}
+
+SimpleToolbar
+{
+	background-color: #3d3d3d;
+}
+
+QSpinBox#countor_spinbox,
+QSpinBox#countor_spinbox:editable,
+QSpinBox#countor_spinbox:hover,
+QSpinBox#countor_spinbox:pressed
+{
+	border: 1px solid #cccccc;
+}
+
+QSpinBox#countor_spinbox::up-button,
+QSpinBox#countor_spinbox::up-button:hover,
+QSpinBox#countor_spinbox::up-button:pressed
+{
+	border: 1px solid #cccccc;
+	width: 24px;
+	subcontrol-origin: border;
+	subcontrol-position: top right;
+	border-bottom-width: 0px;
+}
+
+QSpinBox#countor_spinbox::up-arrow
+{
+	image: url(:/VSSClient/Resources/vms_icon_plus_nor.svg);
+}
+
+QSpinBox#countor_spinbox::up-arrow:disabled,
+QSpinBox#countor_spinbox::up-arrow:off
+{
+	image: url(:/VSSClient/Resources/vms_icon_plus_dis.svg);
+}
+
+QSpinBox#countor_spinbox::down-button,
+QSpinBox#countor_spinbox::down-button:hover,
+QSpinBox#countor_spinbox::down-button:pressed
+{
+	border: 1px solid #cccccc;
+	width: 24px;
+	subcontrol-origin: border;
+	subcontrol-position: bottom right;
+}
+
+QSpinBox#countor_spinbox::down-arrow
+{
+	image: url(:/VSSClient/Resources/vms_icon_minus_nor.svg);
+}
+
+QSpinBox#countor_spinbox::down-arrow:disabled,
+QSpinBox#countor_spinbox::down-arrow:off
+{
+	image: url(:/VSSClient/Resources/vms_icon_minus_dis.svg);
+}
+
+QLabel#valid_until_label,QLabel#time_lock_explain_label
+{
+	font: 12px Microsoft YaHei;
+	color: #ff6600;
+}
+
+QPushButton#btn_lock,
+QPushButton#btn_lock:hover,
+QPushButton#btn_lock:pressed,
+QPushButton#btn_download,
+QPushButton#btn_download:hover,
+QPushButton#btn_download:pressed,
+QPushButton#btn_tag,
+QPushButton#btn_tag:hover,
+QPushButton#btn_tag:pressed
+{
+	border: none;
+	border-radius: 2px;
+	background-color: #e72528;
+	color: white;
+	font: bold 12px Microsoft YaHei;
+}
+
+QPushButton#lock_canceil_btn,
+QPushButton#download_canceil_btn,
+QPushButton#tag_canceil_btn
+{
+	border: 1px solid #e5e5e5;
+	border-radius: 2px;
+	background-color: white;
+	color: #7f7f7f;
+	font: 12px Microsoft YaHei;
+}
+
+QPushButton#lock_canceil_btn:hover,
+QPushButton#lock_canceil_btn:pressed,
+QPushButton#download_canceil_btn:hover,
+QPushButton#download_canceil_btn:pressed,
+QPushButton#tag_canceil_btn:hover,
+QPushButton#tag_canceil_btn:pressed
+{
+	background-color: #f2f2f2;
+}
+
+QSpinBox#adjust_spinbox,
+QSpinBox#adjust_spinbox:editable,
+QSpinBox#adjust_spinbox:hover,
+QSpinBox#adjust_spinbox:pressed
+{
+	font: 12px Microsoft YaHei;
+	padding-left: 8px;
+	border: 1px solid #cccccc;
+	border-radius: 2px;
+}
+
+QSpinBox#adjust_spinbox::up-button,
+QSpinBox#adjust_spinbox::up-button:hover
+{
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+	subcontrol-origin: border;
+	subcontrol-position: top right;
+	width: 24px;
+}
+
+QSpinBox#adjust_spinbox::up-arrow
+{
+	image: url(:/VSSClient/Resources/vms_icon_plus_nor.svg);
+}
+
+QSpinBox#adjust_spinbox::up-arrow:disabled,
+QSpinBox#adjust_spinbox::up-arrow:off
+{
+	image: url(:/VSSClient/Resources/vms_icon_plus_dis.svg);
+}
+
+QSpinBox#adjust_spinbox::down-button,
+QSpinBox#adjust_spinbox::down-button:hover
+{
+	border-left: 1px solid #cccccc;
+	subcontrol-origin: border;
+	subcontrol-position: bottom right;
+	width: 24px;
+}
+
+QSpinBox#adjust_spinbox::up-button:pressed,
+QSpinBox#adjust_spinbox::down-button:pressed
+{
+	background-color: #26000000;
+}
+
+QSpinBox#adjust_spinbox::down-arrow
+{
+	image: url(:/VSSClient/Resources/vms_icon_minus_nor.svg);
+}
+
+QSpinBox#adjust_spinbox::down-arrow:disabled,
+QSpinBox#adjust_spinbox::down-arrow:off
+{
+	image: url(:/VSSClient/Resources/vms_icon_minus_dis.svg);
+}
+
+QLabel#duration_label,
+QLabel#date_time_label,
+QLabel#tag_type_label,
+QLabel#tag_description_label
+{
+	font: 12px Microsoft YaHei;
+	border: none;
+	color: #4c4c4c;
+	background: transparent;
+}
+
+LockButton
+{
+	border: none;
+	background: transparent;
+	background-image: url(:/VSSClient/Resources/icon_locking_nor.svg);
+}
+
+LockButton:hover
+{
+	background-image: url(:/VSSClient/Resources/icon_locking_hover.svg);
+}
+
+LockButton:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_locking_pressed.svg);
+}
+
+TagDetail
+{
+	border: none;
+	background: transparent;
+	background-image: url(:/VSSClient/Resources/tag_pop_up_bkg.svg);
+}
+
+/*录像锁定小提示框*/
+LockInfoDetail
+{
+	border: none;
+	background: transparent;
+	background-image: url(:/VSSClient/Resources/icon_locking_bkg.svg);
+}
+
+QLabel#lock_icon_label
+{
+	border: none;
+	background: transparent;
+	background-image: url(:/VSSClient/Resources/icon_locking_start_end.svg);
+}
+
+QLabel#lock_info_label,
+QLabel#tag_time_label,
+QLabel#tag_desc_label
+{
+	border: none;
+	font: 12px Microsoft YaHei;
+	color: #ffffff;
+	background: transparent;
+}
+
+QLabel#lock_until_tip_label
+{
+	border: none;
+	font: 12px Microsoft YaHei;
+	color: rgba(255, 255, 255, 0.6);
+}
+
+QPushButton#lock_edit_btn,
+QPushButton#lock_unlock_btn,
+QPushButton#tag_edit_btn,
+QPushButton#tag_del_btn
+{
+	border: none;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+	color: #3875F6;
+}
+
+QPushButton#lock_edit_btn:hover,
+QPushButton#lock_unlock_btn:hover,
+QPushButton#lock_edit_btn:pressed,
+QPushButton#lock_unlock_btn:pressed,
+QPushButton#tag_edit_btn:hover,
+QPushButton#tag_del_btn:hover,
+QPushButton#tag_edit_btn:pressed,
+QPushButton#tag_del_btn:pressed
+{
+	color: #ffffff;
+}
+
+QPushButton#lock_close_btn,
+QPushButton#tag_close_btn
+{
+	border: none;
+	background: transparent;
+	background-image: url(:/VSSClient/Resources/icon_locking_close_nor.svg);
+}
+
+QPushButton#lock_close_btn:hover,
+QPushButton#lock_close_btn:pressed,
+QPushButton#tag_close_btn:hover,
+QPushButton#tag_close_btn:pressed
+{
+	background-image: url(:/VSSClient/Resources/icon_locking_close_hover.svg);
+}
+/*录像锁定小提示框 结束*/
+
+/*录像标记，四种标记*/
+QRadioButton#red_rbtn::indicator
+{
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_red.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#red_rbtn:indicator:checked,
+QRadioButton#red_rbtn::indicator:unchecked:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+QRadioButton#red_rbtn::indicator:unchecked:pressed
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+
+QRadioButton#blue_rbtn::indicator
+{
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_blue.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#blue_rbtn:indicator:checked,
+QRadioButton#blue_rbtn::indicator:unchecked:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+QRadioButton#blue_rbtn::indicator:unchecked:pressed
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+
+QRadioButton#green_rbtn::indicator
+{
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_green.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#green_rbtn:indicator:checked,
+QRadioButton#green_rbtn::indicator:unchecked:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+QRadioButton#green_rbtn::indicator:unchecked:pressed
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+QRadioButton#orangle_rbtn::indicator
+{
+	width: 32px;
+	height: 32px;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_orangle.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#orangle_rbtn:indicator:checked,
+QRadioButton#orangle_rbtn::indicator:unchecked:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+QRadioButton#orangle_rbtn::indicator:unchecked:pressed
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+TagButton
+{
+	border: none;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+TagButton:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+
+CDragListView#deleted_list_view
+{
+	background: #F5F5F5;
+	border: 1px solid #E5E5E5;
+	border-top: 0px;
+}
+
+CDragListView#added_list_view
+{
+	border: 1px solid #E5E5E5;
+}
+
+CDragListView::item
+{
+	font: 12px Microsoft YaHei;
+}
+TagButton:pressed
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+TagButton#orangle_btn
+{
+	background-image: url(:/VSSClient/Resources/icon_sign_red.svg);
+}
+
+TagButton#blue_btn
+{
+	background-image: url(:/VSSClient/Resources/icon_sign_blue.svg);
+}
+
+TagButton#green_btn
+{
+	background-image: url(:/VSSClient/Resources/icon_sign_green.svg);
+}
+
+TagButton#yellow_btn
+{
+	background-image: url(:/VSSClient/Resources/icon_sign_orangle.svg);
+}
+
+QToolButton#tag_icon_btn
+{
+	border: 1px solid #cccccc;	
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QToolButton#tag_sel_btn
+{
+	border: 1px solid #cccccc;	
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 0px;
+	border-left: 0px;
+	background-image: url(:/VSSClient/Resources/dolphin-base_icon_down_nor.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QToolButton#tag_icon_btn:hover,
+QToolButton#tag_icon_btn:pressed
+{
+	border: 1px solid #cccccc;	
+	border-top-left-radius: 2px;
+	border-bottom-left-radius: 2px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-right: 0px;
+}
+
+QToolButton#tag_sel_btn:hover
+{
+	background-image: url(:/VSSClient/Resources/dolphin-base_icon_down_hover.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QToolButton#tag_sel_btn:pressed
+{
+	background-image: url(:/VSSClient/Resources/dolphin-base_icon_down_nor.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+QRadioButton#tag_selector_all_btn::indicator
+{
+	width: 32px;
+	height: 32px;
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_all.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#tag_selector_orangle_btn::indicator
+{
+	width: 32px;
+	height: 32px;
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_red.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#tag_selector_blue_btn::indicator
+{
+	width: 32px;
+	height: 32px;
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_blue.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#tag_selector_green_btn::indicator
+{
+	width: 32px;
+	height: 32px;
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_green.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#tag_selector_yellow_btn::indicator
+{
+	width: 32px;
+	height: 32px;
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_sign_orangle.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QRadioButton#tag_selector_all_btn:hover,
+QRadioButton#tag_selector_orangle_btn:hover,
+QRadioButton#tag_selector_blue_btn:hover,
+QRadioButton#tag_selector_green_btn:hover,
+QRadioButton#tag_selector_yellow_btn:hover
+{
+	background-color: rgba(0, 0, 0, 0.08);
+}
+
+QRadioButton#tag_selector_all_btn:checked,
+QRadioButton#tag_selector_orangle_btn:checked,
+QRadioButton#tag_selector_blue_btn:checked,
+QRadioButton#tag_selector_green_btn:checked,
+QRadioButton#tag_selector_yellow_btn:checked
+{
+	background-color: rgba(0, 0, 0, 0.12);
+}
+
+RecordTagTypeSelector
+{
+	border: none;
+	border-radius: 2px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+iVMSGUIToolkit--CFilterLineEdit
+{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+}
+
+iVMSGUIToolkit--CIconStatusButton#visualizer_return_btn
+{
+	border: none;
+	color: #3875f6;
+	background: transparent;
+	font: 12px Microsoft YaHei;
+}
+
+iVMSGUIToolkit--CIconStatusButton#visualizer_return_btn:hover
+{
+	color: #5f90f7;
+	text-decoration: underline;
+}
+
+iVMSGUIToolkit--CIconStatusButton#visualizer_return_btn:pressed
+{
+	color: #3269dc;
+	text-decoration: underline;
+}
+
+iVMSGUIToolkit--CIconStatusButton#visualizer_return_btn:disabled
+{
+	color: rgba(56, 117, 246, 0.5);
+}
+
+QLabel#visualizer_title_label
+{
+	color: #4c4c4c;
+	font: 12px Microsoft YaHei;
+}
+
+QLabel#tag_detail_widget_time_label
+{
+	font: 12px Microsoft YaHei;
+	color: #7f7f7f;
+}
+
+QLabel#tag_detail_widget_desc_label
+{
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+}
+
+CQssWidget#seperator_line
+{
+	border: none;
+	background-color: #e5e5e5;
+}
+
+QTreeView#tree_tags_view,
+QListView#group_list
+{
+	border: none;
+}
+
+CStyledTreeView#tree_tags_view::branch:has-child:!has-siblings:closed,
+CStyledTreeView#tree_tags_view::branch:closed:has-children:has-siblings,
+CStyledTreeView#tree_tags_view::branch:open:has-children:!has-siblings,
+CStyledTreeView#tree_tags_view::branch:open:has-children:has-siblings
+{
+	border-image: none;
+	image: none;
+}
+
+QToolButton#tag_detail_edit_btn
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_edit_nor.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QToolButton#tag_detail_edit_btn:hover
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_edit_dis.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QToolButton#tag_detail_edit_btn:pressed
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_edit_nor.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+QWidget#broadcast_title_widget
+{
+	border-bottom: 1px solid #e5e5e5;
+}
+
+QWidget#channel_edit_widget
+{
+	background: #f5f5f5;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+QWidget#left_widget
+{
+	border-right: 1px solid #e5e5e5;
+}
+
+QFrame#splitet_frame
+{
+	background-color: #e5e5e5;
+}
+
+QWidget#left_buttom_widget
+{
+	border-top: 1px solid #e5e5e5;
+}
+
+QPushButton#right_close_button
+{
+	border: none;
+	border-radius: 2px;
+	background-image: url(:/VSSClient/Resources/close.svg);
+}
+
+QPushButton#right_close_button:hover
+{
+	border: none;
+	background-color: #dfdfdf;
+}
+
+QPushButton#add_group
+{
+	border: none;
+	border-radius: 2px;
+	background-image: url(:/VSSClient/Resources/view_icon_newfolder_nor.svg);
+}
+
+QPushButton#add_group:hover
+{
+	border: none;
+	background-color: #dfdfdf;
+}
+
+QPushButton#add_group:disabled
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/view_icon_newfolder_dis.svg);
+}
+
+QPushButton#edit_group
+{
+	border: none;
+	border-radius: 2px;
+	background-image: url(:/VSSClient/Resources/view_icon_edit_nor.svg);
+}
+
+QPushButton#edit_group:hover
+{
+	border: none;
+	background-color: #dfdfdf;
+}
+
+QPushButton#edit_group:disabled
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/view_icon_edit_dis.svg);
+}
+
+QPushButton#del_group
+{
+	border: none;
+	border-radius: 2px;
+	background-image: url(:/VSSClient/Resources/icon_delete_nor.svg);
+}
+
+QPushButton#del_group:hover
+{
+	border: none;
+	background-color: #dfdfdf;
+}
+
+QPushButton#del_group:disabled
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/icon_delete_dis.svg);
+}
+
+QPushButton#expand_group
+{
+	border: none;
+	border-radius: 2px;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_packet_set_nor.svg);
+}
+
+QPushButton#expand_group:hover
+{
+	border: none;
+	background-color: #dfdfdf;
+}
+
+QPushButton#expand_group:disabled
+{
+	border: none;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_packet_set_dis.svg);
+}
+
+QPushButton#add_channel_button
+{
+	border-radius: 2px;
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_add_nor.svg);
+	background-position: left;
+	margin-left: 10px 0px;
+}
+
+QPushButton#add_channel_button:hover
+{
+	background-color: #dfdfdf;
+}
+
+QPushButton#add_channel_button:disabled
+{
+	color: #d5d5d5;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_add_dis.svg);
+}
+
+QPushButton#del_channel_button
+{
+	border-radius: 2px;
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_delete_nor.svg);
+}
+
+QPushButton#del_channel_button:hover
+{
+	background-color: #dfdfdf;
+}
+
+QPushButton#del_channel_button:disabled
+{
+	color: #d5d5d5;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_delete_dis.svg);
+}
+
+QPushButton#start_broadcast_button
+{
+	border-radius: 2px;
+	padding-left: 24px;
+	font: bold 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_start_nor.svg);
+}
+
+QPushButton#start_broadcast_button:hover
+{
+	background-color: #dfdfdf;
+}
+
+QPushButton#start_broadcast_button:disabled
+{
+	color: #d5d5d5;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_start_dis.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#stop_broadcast_button
+{
+	border-radius: 2px;
+	padding-left: 24px;
+	font: 12px Microsoft YaHei;
+	color: #4c4c4c;
+	border: none;
+	background: transparent;
+	background-position: left;
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/Broadcast/icon_stop_nor.svg);
+}
+
+iVMSGUIToolkit--CToolPushButton#stop_broadcast_button:hover
+{
+	background-color: #dfdfdf;
+}
+
+QLabel#broadcast_time_label
+{
+	font: bold 16px Microsoft YaHei;
+	color: #108EE9;
+}
+
+QFrame#background_frame
+{
+	background-repeat: no-repeat;
+	background-image: url(:/VSSClient/Resources/Broadcast/pic_broadcast_on.png);
+}
+
+QListWidget#group_list::item
+{
+	border: none;
+	background-color: #ffffff;
+}
+
+QListWidget#group_list::item:hover
+{
+	background-color: #fdeeee;
+}
+
+QListWidget#group_list::item:selected
+{
+	background-color: #ec5153;
+}
+
+QTableView#channel_list CTableHeaderView:section
+{
+	background-color: #fBfBfB;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+	color: #333333;
+	height: 36px;
+	font: bold 12px Microsoft YaHei;
+}
+
+QTableView#channel_list
+{
+	border: none;
+	background-color: #ffffff;
+}
+
+QTableView#channel_list::item
+{
+	border-bottom: 1px solid #e5e5e5;
+	color: #4c4c4c;
+
+	min-height: 50px;
+}
+
+CEditBroadcastGroupBox
+{
+	border: 1px solid #e5e5e5;
+	background-color: #ffffff;
+}
+
+/*日历选择ComoBox*/
+CDateEdit,
+CTimeEdit,
+CDateTimeEdit,
+CYearMonthDayEdit,
+DateTimePicker
+{
+	border: 1px solid #cccccc;
+	font: Microsoft YaHei;
+}
+CDateEdit:hover,
+CTimeEdit:hover,
+CDateTimeEdit:hover,
+CYearMonthDayEdit:hover,
+DateTimePicker:hover
+{
+	border: 1px solid #666666;
+}
+CDateEdit::down-arrow,
+CTimeEdit::down-arrow,
+CDateTimeEdit::down-arrow,
+CYearMonthDayEdit::down-arrow,
+DateTimePicker::down-arrow
+{
+    image: url(:/GuiPublic/ComboBox/ComboBox_DateButton_nor.svg);
+}
+CDateEdit::down-arrow:disabled, 
+CDateEdit::down-arrow:off,
+CTimeEdit::down-arrow:disabled,
+CTimeEdit::down-arrow:off,
+CDateTimeEdit::down-arrow:disabled, 
+CDateTimeEdit::down-arrow:off,
+CYearMonthDayEdit::down-arrow:disabled, 
+CYearMonthDayEdit::down-arrow:off,
+DateTimePicker::down-arrow:disabled,
+DateTimePicker::down-arrow:off
+{
+   image: url(:/GuiPublic/ComboBox/ComboBox_DateButton_dis.svg)
+}
+CDateEdit::drop-down,
+CTimeEdit::drop-down,
+CDateTimeEdit::drop-down,
+CYearMonthDayEdit::drop-down,
+DateTimePicker::drop-down
+{
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    border-left-style: solid;
+    border-left-color: darkgray;
+    border-left-width: 0px;
+	margin-right: 10px;
+}
+
+CTimeEdit::up-button,
+CTimeEdit::down-button
+{
+	width: 0;
+}
+
+QLabel#time_bar_axis,
+QLabel#time_bar_axis:hover,
+QLabel#time_bar_axis:pressed,
+QLabel#time_bar_axis:disabled
+{
+	background: transparent;
+	border: none;
+	background-image: url(:/VSSClient/Resources/playback_timebar_axis.svg);
+}
+
+QPushButton#btn_left_left
+{
+    border: none;
+    background: transparent;
+    background-image: url(:/VSSClient/Resources/time_scale_left_left_nor.svg);
+}
+
+QPushButton#btn_left_left:hover
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_left_hover.svg);
+}
+
+QPushButton#btn_left_left:pressed
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_left_pressed.svg);
+}
+
+QPushButton#btn_left_left:disabled
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_left_dis.svg);
+}
+
+QPushButton#btn_left_right
+{
+    border: none;
+    background: transparent;
+    background-image: url(:/VSSClient/Resources/time_scale_left_nor.svg);
+}
+
+QPushButton#btn_left_right:hover
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_hover.svg);
+}
+
+QPushButton#btn_left_right:pressed
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_pressed.svg);
+}
+
+QPushButton#btn_left_right:disabled
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_dis.svg);
+}
+
+QPushButton#btn_right_left
+{
+    border: none;
+    background: transparent;
+    background-image: url(:/VSSClient/Resources/time_scale_right_nor.svg);
+}
+
+QPushButton#btn_right_left:hover
+{
+    background-image: url(:/VSSClient/Resources/time_scale_right_hover.svg);
+}
+
+QPushButton#btn_right_left:pressed
+{
+    background-image: url(:/VSSClient/Resources/time_scale_right_pressed.svg);
+}
+
+QPushButton#btn_right_left:disabled
+{
+    background-image: url(:/VSSClient/Resources/time_scale_right_dis.svg);
+}
+
+QPushButton#btn_right_right
+{
+    border: none;
+    background: transparent;
+    background-image: url(:/VSSClient/Resources/time_scale_left_right_nor.svg);
+}
+
+QPushButton#btn_right_right:hover
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_right_hover.svg);
+}
+
+QPushButton#btn_right_right:pressed
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_right_pressed.svg);
+}
+
+QPushButton#btn_right_right:disabled
+{
+    background-image: url(:/VSSClient/Resources/time_scale_left_right_dis.svg);
+}
+
+/*日历*/
+CCalendarWidget,
+CBeginEndCalendarWidget
+{
+    background-color: #F53E43;
+	font: Microsoft YaHei;
+}
+CCalendarWidget
+{
+    border:1px solid #d2d2d2;
+}
+
+CCalendarWidget QLabel,
+CBeginEndCalendarWidget QLabel
+{
+	color:rgb(255,255,255);
+}
+CBeginEndCalendarWidget QLabel#m_pLabelToday,
+CBeginEndCalendarWidget QLabel#m_pBeginTimeLabel,
+CBeginEndCalendarWidget QLabel#m_pEndTimeLabel
+{
+	color:rgb(0, 0, 0);
+}
+CCalendarWidget QToolButton#m_pPrevMonth,
+CBeginEndCalendarWidget QToolButton#m_pPrevMonthBegin,
+CBeginEndCalendarWidget QToolButton#m_pPrevMonthEnd
+{
+	border:none;
+}
+CCalendarWidget QToolButton#m_pNextMonth,
+CBeginEndCalendarWidget QToolButton#m_pNextMonthBegin,
+CBeginEndCalendarWidget QToolButton#m_pNextMonthEnd
+{
+	border:none;
+}
+/*前一年*/
+CCalendarWidget iVMSGUIToolkit--CToolButton#m_pPrevMonth
+{
+    border: none;
+	background: transparent;
+	qproperty-m_normalIcon: url(:/GuiPublic/Calendar/Calendar_Last_Year_nor.png);
+	qproperty-m_hoverIcon: url(:/GuiPublic/Calendar/Calendar_Last_Year_sel.png);
+	qproperty-m_selectedIcon: url(:/GuiPublic/Calendar/Calendar_Last_Year_sel.png);
+	qproperty-icon: url(:/GuiPublic/Calendar/Calendar_Last_Year_nor.png);
+}
+/*后一年*/
+CCalendarWidget iVMSGUIToolkit--CToolButton#m_pNextMonth
+{
+    border: none;
+	background: transparent;
+	qproperty-m_normalIcon: url(:/GuiPublic/Calendar/Calendar_Next_Year_nor.png);
+	qproperty-m_hoverIcon: url(:/GuiPublic/Calendar/Calendar_Next_Year_sel.png);
+	qproperty-m_selectedIcon: url(:/GuiPublic/Calendar/Calendar_Next_Year_sel.png);
+	qproperty-icon: url(:/GuiPublic/Calendar/Calendar_Next_Year_nor.png);
+}
+
+CCalendarView
+{
+	border-left: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+}
+CCalendarView::item
+{
+    border:1px solid #fafafa;
+}
+CCalendarView::item:hover
+{
+	border: 1px solid #f53e43;
+	color: #1e1e1e;
+}
+CCalendarView::item:selected
+{
+	background-color: #f53e43;
+	color: #ffffff;
+}
+
+CCalendarWidget QFrame#m_pNavBarFrame,
+CBeginEndCalendarWidget QWidget#m_pBeginHeader,
+CBeginEndCalendarWidget QWidget#m_pEndHeader
+{
+	border-width:4px 2px 0 2px;
+}
+CCalendarTimeWidget#CCalendarTimeWidgetClassUi
+{
+	background-color:white;
+}
+
+CCalendarTimeWidget QFrame#m_pTimeBgFrame,
+CBeginEndCalendarWidget QFrame#m_pBeginTimeBgFrame,
+CBeginEndCalendarWidget QFrame#m_pEndTimeBgFrame
+{
+	background-color:white;
+	border-left: 1px solid rgb(188,188,188);
+	border-right: 1px solid rgb(188,188,188);
+	border-bottom: 1px solid rgb(188,188,188);
+}
+CHourTimeEditPopup QTableWidget,
+CMinuteTimeEditPopup QTableWidget
+{
+	border:hidden;
+}
+CHourTimeEditPopup QTableWidget::item:hover,
+CMinuteTimeEditPopup QTableWidget::item:hover
+{
+    color:rgb(0,0,0);
+} 
+CHourTimeEditPopup QTableWidget::item:selected,
+CMinuteTimeEditPopup QTableWidget::item:selected
+{
+	background-color:rgb(204,204,204);
+    color:rgb(0,0,0);
+} 
+/*前一年*/
+CYearTimeEditPopup iVMSGUIToolkit--CIconStatusButton#m_pPrev
+{
+	background-color: #f5f5f5;
+	border-image: url(:/Public/Icon/Images/Public/Icon/btn_left_nor.svg);
+}
+/*前一年*/
+CYearTimeEditPopup iVMSGUIToolkit--CIconStatusButton#m_pPrev:hover
+{
+	border-image:url(:/Public/Icon/Images/Public/Icon/btn_left_pre.svg);
+	background-color: #e0e0e0;
+}
+/*后一年*/
+CYearTimeEditPopup iVMSGUIToolkit--CIconStatusButton#m_pNext
+{
+	background-color: #f5f5f5;
+	border-image: url(:/Public/Icon/Images/Public/Icon/btn_right_nor.svg);
+}
+/*后一年*/
+CYearTimeEditPopup iVMSGUIToolkit--CIconStatusButton#m_pNext:hover
+{
+	border-image:url(:/Public/Icon/Images/Public/Icon/btn_right_pre.svg);
+	background-color: #e0e0e0;
+}
+/*月历*/
+CCalendarMonthWidget
+{
+background:none;
+font: Microsoft YaHei;
+border: 1px solid rgb(188,188,188);
+}
+
+/*指定颜色 group选中状态颜色*/
+CBroadcastClient#user_groupItem::selected
+{
+    background-color: #cce72528;
+}
+
+/*指定颜色 group悬浮状态颜色*/
+CBroadcastClient#user_groupItem::hover
+{
+    background-color: #14e72528;
+}
+
+/*指定颜色 group悬浮状态颜色*/
+CBroadcastClient#user_groupItem_text::selected
+{
+    background-color: #ffffff;
+}

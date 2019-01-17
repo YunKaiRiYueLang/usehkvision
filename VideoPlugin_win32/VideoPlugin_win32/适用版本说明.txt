@@ -1,0 +1,2 @@
+1、适用于海康威视综合安防平台iSecure Center V1.1.0产品；
+2、适用于海康威视智能应用平台Infovision IoT V1.0.0产品；

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--错误码对应信息-->
+<ErrorConfig>
+	<!-- 内容举例，具体内容由实际错误定义决定-->
+	<ErrorMode mode="streamClient">
+		<ErrorItem info="服务端交互异常">0x0173ea86, 0x0173ea87,0x0173ea88, 0x0173ea89, 0x0173ea8a, 0x0173ea8b, 0x0173ea8c,
+			0x0173ea8d, 0x0173ea8e, 0x0173ea8f, 0x0173ea90, 0x0173ea91,0x0173ea92, 0x0173ea93, 0x0173ea94, 0x0173ea95, 0x0173ea96, 
+			0x0173ea97</ErrorItem>
+		<ErrorItem info="服务端失去连接">0x0173ea99</ErrorItem>	
+		<ErrorItem info="服务端认证失败">0x0173ea71</ErrorItem>	
+		<ErrorItem info="服务端会话无效">0x0173ea72</ErrorItem>	  
+		<ErrorItem info="服务端请求参数错误">0x0173ea73</ErrorItem>	
+		<ErrorItem info="服务端报文异常">0x0173ea75</ErrorItem>	
+		<ErrorItem info="服务端连接无效">0x0173ea66</ErrorItem>	
+		<ErrorItem info="服务端连接无效">0x0173ea67</ErrorItem>	
+		<ErrorItem info="绑定服务端端口失败">0x0173ea68</ErrorItem>	
+		<ErrorItem info="服务端发送数据失败">0x0173ea69</ErrorItem> 
+		<ErrorItem info="服务端失去连接">5</ErrorItem> 
+	</ErrorMode>
+	
+	<!-- 解码进程错误码-->
+	<ErrorMode mode="decoder">
+		<ErrorItem info="未知错误">0x0E480001</ErrorItem> 
+		<ErrorItem info="函数调用错误">0x0E480002,0x0E480003</ErrorItem> 
+		<ErrorItem info="未初始化">0x0E480004</ErrorItem> 
+		<ErrorItem info="操作不支持">0x0E480005,0x0E48090a,0x0E48090b</ErrorItem> 
+		<ErrorItem info="资源不足">0x0E480006,0x0E480901,0x0E480904,0x0E480910</ErrorItem> 
+		<ErrorItem info="打开文件失败">0x0E480900</ErrorItem>
+		<ErrorItem info="操作取消">0x0E480902 </ErrorItem>	
+		<ErrorItem info="没有文件">0x0E48090d，0x0E48090e</ErrorItem>		
+		<ErrorItem info="不支持硬解码(GPU)">0x0E480911 </ErrorItem>
+		<ErrorItem info="无法获取配置信息">0x0E480912 </ErrorItem>
+		<ErrorItem info="没有存储路径">0x0E480913</ErrorItem>
+
+	</ErrorMode>
+	
+     <!-- http错误码-->
+	<ErrorMode mode="http">
+		<ErrorItem info="服务端永久性迁移">301</ErrorItem> 
+		<ErrorItem info="服务端访问拒绝">401</ErrorItem> 
+		<ErrorItem info="服务端禁止访问">403</ErrorItem> 
+		<ErrorItem info="服务端未找到服务">404</ErrorItem> 
+	</ErrorMode>
+	
+	<ErrorMode mode="netsdk">
+		<ErrorItem info="用户名密码错误">0xE460001,0xE46001a</ErrorItem> 
+		<ErrorItem info="权限不足">0xE460002, 0xE46000d</ErrorItem>
+		<ErrorItem info="未初始化">0xE460003</ErrorItem>
+		<ErrorItem info="通道号错误">0xE460004</ErrorItem>
+		<ErrorItem info="登录数超过最大值">0xE460005</ErrorItem>
+		<ErrorItem info="版本错误">0xE460006</ErrorItem>
+		<ErrorItem info="与服务器通讯失败">0xE460007,0xE460008,0xE460009,0xE46000a,0xE460012, 0xE46001f</ErrorItem>
+		<ErrorItem info="传送数据错误">0xE46000b</ErrorItem>
+		<ErrorItem info="调用次序或函数参数错误">0xE46000c,0xE460011,0xE460020</ErrorItem>
+		<ErrorItem info="命令执行超时">0xE46000e</ErrorItem>
+		<ErrorItem info="串口号错误">0xE46000f</ErrorItem>
+		<ErrorItem info="硬盘格式化">0xE46001b</ErrorItem> 
+		<ErrorItem info="文件操作失败">0xE460021,0xE460022, 0xE460023</ErrorItem> 
+		<ErrorItem info="资源分配错误">0xE460029,0xE46002b</ErrorItem> 
+		
+	</ErrorMode>
+	
+	<ErrorMode mode="voice">
+	</ErrorMode>
+	
+	<ErrorMode mode="playcontrol">
+		<ErrorItem info="参数错误">0xE410001 </ErrorItem> 
+		<ErrorItem info="未播放">0xE410002 </ErrorItem> 
+		<ErrorItem info="不支持此功能">0xE410003, 0xE410007</ErrorItem> 
+		<ErrorItem info="地址重用失败">0xE410004 </ErrorItem> 
+		<ErrorItem info="保存文件失败">0xE410005 </ErrorItem> 
+		<ErrorItem info="解码库调用错误">0xE410006 </ErrorItem> 
+		<ErrorItem info="无效句柄">0xE410008 </ErrorItem> 
+	</ErrorMode>
+	
+</ErrorConfig>

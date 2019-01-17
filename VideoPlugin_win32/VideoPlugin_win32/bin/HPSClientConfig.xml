@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+write_file为是否开启写文件的配置项，当值为“1”表示开启录像，“0”表示不开启录像，默认不开启录像
+maxfilesize为最大录像文件大小，属性值的单位为M
+xmleffectivetime为配置文件的生效时间，由第一次读取配置文件开始计时，属性值的单位为minute(分钟)
+-->
+<config>
+    <Format write_file="0" max_filesize="20" xml_effectivetime="15" />
+</config>

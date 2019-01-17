@@ -1,0 +1,5 @@
+1、VideoPlugin提供集成播放UI的视频预览回放功能，支持海康、大华、国标、ehome和onvif协议接入设备；
+2、导出库为32位的VideoPlugin.dll和VideoPlugin.lib，VideoPlugin.dll位于bin目录中，VideoPlugin.lib位于lib目录中，头文件位于include目中；
+3、提供基于Qt 5.9.1的预览和回放demo源码，位于demo目录，demo请使用Release编译，默认生成路径为bin目录；Demo名称为QPreviewTest.exe和QPlaybackTest.exe；
+4、VideoPlugin基于Visual Studio2015（简称VS2015）和Qt5.9.1开发，某些机器可能存在缺失VS2008/VS2015运行时环境，请安装VC_x86Runtime.exe/vc_redist.x86.exe（若已安装则选择修复），安装脚本为install_runtime.bat（或直接运行VC_x86Runtime.exe/vc_redist.x86.exe安装）；VideoPlugin目前只支持Qt开发的客户端对接，请使用Qt5.9.1开发；
+5、Demo的运行需要依赖客户生产环境平台，如海康威视综合安防平台iSecure Center V1.1.0、海康威视智能应用平台Infovision IoT V1.0.0；

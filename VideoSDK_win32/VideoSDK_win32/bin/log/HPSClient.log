@@ -1,0 +1,43 @@
+2019-01-08 17:12:28.150 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:12:28.150 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | version: 5.0.2.541096
+2019-01-08 17:12:28.150 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | build:   5.0.2.541096 (Build2018/09/14 19:25:15)
+2019-01-08 17:12:28.150 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | brief:   stream client sdk
+2019-01-08 17:12:28.150 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:12:28.151 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2688)] - SYSTRANS version:1693066547
+2019-01-08 17:12:28.152 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2690)] - static CStreamFormat addr:10075538 
+2019-01-08 17:12:28.152 [0x0000b0c8] WARN  HPSClient - [ReadConfigFile(874)] [0x0173eaa9] - open file StreamClient.json err!
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | version: 5.0.2.541096
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | build:   5.0.2.541096 (Build2018/09/14 19:25:15)
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - | brief:   stream client sdk
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2688)] - SYSTRANS version:1693066547
+2019-01-08 17:12:59.029 [0x0000b0c8] INFO  HPSClient - [HPSClient_InitLib(2690)] - static CStreamFormat addr:10075538 
+2019-01-08 17:12:59.029 [0x0000b0c8] WARN  HPSClient - [ReadConfigFile(874)] [0x0173eaa9] - open file StreamClient.json err!
+2019-01-08 17:13:45.227 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:13:45.227 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2687)] - | version: 5.0.2.541096
+2019-01-08 17:13:45.228 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2687)] - | build:   5.0.2.541096 (Build2018/09/14 19:25:15)
+2019-01-08 17:13:45.228 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2687)] - | brief:   stream client sdk
+2019-01-08 17:13:45.228 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:13:45.228 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2688)] - SYSTRANS version:1693066547
+2019-01-08 17:13:45.228 [0x0000e0dc] INFO  HPSClient - [HPSClient_InitLib(2690)] - static CStreamFormat addr:10075538 
+2019-01-08 17:13:45.229 [0x0000e0dc] WARN  HPSClient - [ReadConfigFile(874)] [0x0173eaa9] - open file StreamClient.json err!
+2019-01-08 17:13:53.431 [0x00011928] INFO  HPSClient - [HPSClient_TransportEngine_Init(68)]trans port engine init , count = 1
+2019-01-08 17:13:53.433 [0x00011928] INFO  HPSClient - [HPSClient_CRtspClientSessionMgr::GetSessionHandleFromDeque(810)] - reuse sessoinHandle dequeu size is 0 
+
+2019-01-08 17:13:53.433 [0x00011928] WARN  HPSClient - [HPSClient_CRtspClientSessionMgr::GetSessionHandleFromDeque(814)] [0x0173eaa3] - reuse deque is empty 
+
+2019-01-08 17:13:53.433 [0x00011928] INFO  HPSClient - [RTSPClient_CreateSession(219)] - create new sessionHandle 
+
+2019-01-08 17:13:53.475 [0x00011928] INFO  HPSClient - [HPSClient_Start(4414)] <,> - [@getStreamMode:rtp/tcp,@url:192.168.8.34] HPSClient_Start Enter, sessionHandle[0]
+2019-01-08 17:13:53.475 [0x00011928] ERROR HPSClient - [ParseVlcFormatUrl(680)] [0x0173ea73] - can't find 'rtsp://' or 'rtsp://' isn't in the first position, url[192.168.8.34]
+2019-01-08 17:13:53.475 [0x00011928] ERROR HPSClient - [HPSClient_Start(4449)] <,> [0x0173ea73] - [@getStreamMode:rtp/tcp,@url:192.168.8.34] HPSClient_Start error, ParseVlcFormatUrl return err
+2019-01-08 17:14:00.382 [0x0000d2d4] INFO  HPSClient - [HPSClient_CRtspClientSessionMgr::GetSessionHandleFromDeque(810)] - reuse sessoinHandle dequeu size is 0 
+
+2019-01-08 17:14:00.382 [0x0000d2d4] WARN  HPSClient - [HPSClient_CRtspClientSessionMgr::GetSessionHandleFromDeque(814)] [0x0173eaa3] - reuse deque is empty 
+
+2019-01-08 17:14:00.382 [0x0000d2d4] INFO  HPSClient - [RTSPClient_CreateSession(219)] - create new sessionHandle 
+
+2019-01-08 17:14:00.384 [0x0000d2d4] INFO  HPSClient - [HPSClient_Start(4414)] <,> - [@getStreamMode:rtp/tcp,@url:192.168.8.34] HPSClient_Start Enter, sessionHandle[1]
+2019-01-08 17:14:00.384 [0x0000d2d4] ERROR HPSClient - [ParseVlcFormatUrl(680)] [0x0173ea73] - can't find 'rtsp://' or 'rtsp://' isn't in the first position, url[192.168.8.34]
+2019-01-08 17:14:00.384 [0x0000d2d4] ERROR HPSClient - [HPSClient_Start(4449)] <,> [0x0173ea73] - [@getStreamMode:rtp/tcp,@url:192.168.8.34] HPSClient_Start error, ParseVlcFormatUrl return err

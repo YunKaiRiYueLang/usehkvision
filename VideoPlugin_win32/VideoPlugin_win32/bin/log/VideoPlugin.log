@@ -1,0 +1,129 @@
+2019-01-08 17:10:18.207 [0x00002e04] INFO  VideoPlugin - [QPlayWindow.cpp-372] init success.
+=======================
+version: 1.0.0
+build: 1.0.0 (Build2018/09/11 12:00:00)
+brief: VideoPlugin
+=======================
+2019-01-08 17:10:32.100 [0x00002e04] INFO  VideoPlugin - [QPlayWindow.cpp-372] init success.
+=======================
+version: 1.0.0
+build: 1.0.0 (Build2018/09/11 12:00:00)
+brief: VideoPlugin
+=======================
+2019-01-08 17:10:52.044 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:10:52.045 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 1
+2019-01-08 17:10:55.604 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:10:55.604 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 0
+2019-01-08 17:10:58.544 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:10:58.544 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 0
+2019-01-08 17:11:03.416 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:03.417 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 0
+2019-01-08 17:11:04.280 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:04.280 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 0
+2019-01-08 17:11:06.338 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:06.338 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = 1
+2019-01-08 17:11:09.459 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:09.459 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:10.058 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:10.058 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:14.704 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:14.705 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:21.088 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:21.088 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:27.282 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:27.282 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:29.345 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:29.345 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1
+2019-01-08 17:11:38.665 [0x0000199c] ERROR VideoPlugin - [JasonParam.cpp-163] parse camera info json fail, json is 
+<!DOCTYPE html>
+<html><head><title>Document Error: Not Found</title></head>
+<body><h2>Access Error: 404 -- Not Found</h2>
+<p>Can't locate document: /artemis/api/resource/v1/cameras/indexCode</p>
+</body>
+</html>
+
+2019-01-08 17:11:38.665 [0x0000199c] ERROR VideoPlugin - [QLiveviewWindow.cpp-623] query camera info fail, camera indexcode = -1

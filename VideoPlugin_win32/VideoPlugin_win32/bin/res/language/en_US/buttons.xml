@@ -1,0 +1,329 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ID: 是分辨按钮的唯一标志，<=1000是内置按钮，>1000是扩展ID,==0无效
+Sequence: 按钮排列顺序，数字越小，排序越靠左，具体数字根据需要调整,该字段已废止，顺序按照加载的顺序来确定
+Type: 0:普通按钮,1:显示框 ，2~9 后期扩展,10:伸缩器,用于对按钮之间的伸缩，11:分割器，用于对按钮之间的分割，只用于工具条，不使用与菜单
+Name: 按钮名称
+MenuName:右键菜单名称
+		pressed:按下后右键菜单显示的名称
+Tip: 按钮的tooltip信息
+WinType: 窗口类型 0x1 预览 0x2 回放 0x4 图片 0x8 即时回放，共有的则或
+DeviceType: 设备类型 0x1 海康，0x2 大华, 0x4 国标, 0x8 onvif, 0x16 B接口
+Show: 按钮放置的位置，0x1 topbar, 0x2 bottombar, 0x4 right menu；如果需要在多个地方显示，则需要或（|）上
+		visible(true/false) 是否可以见
+		checkable(true/false) 是否具有check效果
+		enable(true/false) 是否可以使用
+Image: 按钮贴的图片-正常时的图片路径（参考rcc的图片设置）
+		ImgState：表示图片的状态，(on,off)，默认是off。按钮如果是checkedable，且已经checked，则为on；反之为off
+		normal,disabled,active,表示在此种model下的图片
+-->
+<Config>
+    <ButtonConfig>
+        <ID>950</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>15</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="false" checkable="false" visible="true">1</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>100</ID>
+        <Type>0</Type>
+        <Name>close</Name>
+        <MenuName>close</MenuName>
+        <Tip>close</Tip>
+        <WinType>15</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">5</Show>
+        <Image>
+            <ImgState active=":/close_hover.svg" selected=":/close_hover.svg" disabled=":/close_dis.svg" normal=":/close_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+   
+    <ButtonConfig>
+        <ID>107</ID>
+        <Type>0</Type>
+        <Name>stop</Name>
+        <MenuName>stop</MenuName>
+        <Tip>stop</Tip>
+        <WinType>3</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="false">6</Show>
+        <Image>
+            <ImgState active=":/stop_hover.svg" selected=":/stop_hover.svg" disabled=":/stop_dis.svg" normal=":/stop_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>108</ID>
+        <Type>0</Type>
+        <Name>frame backward</Name>
+        <MenuName>frame backward</MenuName>
+        <Tip>frame backward</Tip>
+        <WinType>8</WinType>
+        <DeviceType>9</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/preframe_hover.svg" selected=":/preframe_hover.svg" disabled=":/preframe_dis.svg" normal=":/preframe_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+	 <ButtonConfig>
+        <ID>302</ID>
+        <Type>0</Type>
+        <Name>pause</Name>
+        <MenuName>pause</MenuName>
+        <Tip pressed="play">pause</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/pause_hover.svg" selected=":/pause_nor.svg" disabled=":/play_dis.svg" normal=":/pause_nor.svg">off</ImgState>
+            <ImgState active=":/play_forward_hover.svg" selected=":/play_forward_nor.svg" disabled=":/play_dis.svg" normal=":/play_forward_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>109</ID>
+        <Type>0</Type>
+        <Name>frame forward</Name>
+        <MenuName>frame forward</MenuName>
+        <Tip>frame forward</Tip>
+        <WinType>8</WinType>
+        <DeviceType>15</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/nextframe_hover.svg" selected=":/nextframe_hover.svg" disabled=":/nextframe_dis.svg" normal=":/nextframe_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>955</ID>
+        <Type>11</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="false" checkable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>206</ID>
+        <Type>1</Type>
+        <Name>process</Name>
+        <MenuName></MenuName>
+        <Tip></Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="false" checkable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>956</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="false" checkable="false" visible="true">2</Show>
+    </ButtonConfig>
+	<ButtonConfig>
+        <ID>105</ID>
+        <Type>0</Type>
+        <Name>volumn</Name>
+        <MenuName pressed="silence">Open voice</MenuName>
+        <Tip pressed="silence">voice</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/unvoice_hover.svg" selected=":/unvoice_nor.svg" disabled=":/unvoice_dis.svg" normal=":/unvoice_nor.svg">off</ImgState>
+            <ImgState active=":/voice_hover.svg" selected=":/voice_nor.svg" disabled=":/voice_dis.svg" normal=":/voice_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>102</ID>
+        <Type>0</Type>
+        <Name>picture</Name>
+        <MenuName>picture</MenuName>
+        <Tip>picture</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/capture_hover.svg" selected=":/capture_hover.svg" disabled=":/capture_dis.svg" normal=":/capture_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>203</ID>
+        <Type>0</Type>
+        <Name>video</Name>
+        <MenuName pressed="stop video">start video</MenuName>
+        <Tip>video</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/record_hover.svg" selected=":/record_nor.svg" disabled=":/record_dis.svg" normal=":/record_nor.svg">off</ImgState>
+            <ImgState active=":/record_hover.svg" selected=":/record_hover.svg" disabled=":/record_dis.svg" normal=":/record_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>306</ID>
+        <Type>0</Type>
+        <Name>edit</Name>
+        <MenuName pressed="stop edit">start edit</MenuName>
+        <Tip>edit</Tip>
+        <WinType>2</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/cut_hover.svg" selected=":/cut_nor.svg" disabled=":/cut_dis.svg" normal=":/cut_nor.svg">off</ImgState>
+            <ImgState active=":/cut_hover.svg" selected=":/cut_hover.svg" disabled=":/cut_dis.svg" normal=":/cut_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>104</ID>
+        <Type>0</Type>
+        <Name>zoom</Name>
+        <MenuName pressed="stop zoom">start zoom</MenuName>
+        <Tip>zoom</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/zoomin_hover.svg" selected=":/zoomin_hover.svg" disabled=":/zoomin_dis.svg" normal=":/zoomin_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>204</ID>
+        <Type>0</Type>
+        <Name>3D</Name>
+        <MenuName pressed="Stop 3D">Start 3D</MenuName>
+        <Tip>3D</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/3d_hover.svg" selected=":/3d_hover.svg" disabled=":/3d_dis.svg" normal=":/3d_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>202</ID>
+        <Type>0</Type>
+        <Name>PTZ</Name>
+        <MenuName pressed="Stop ptz">Start ptz</MenuName>
+        <Tip>ptz</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/ptz_hover.svg" selected=":/ptz_hover.svg" disabled=":/ptz_dis.svg" normal=":/ptz_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>101</ID>
+        <Type>0</Type>
+        <Name>Main/Sub</Name>
+        <MenuName pressed="change to main">change to sub</MenuName>
+        <Tip pressed="change to main">change to sub</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/zu_code_hover.svg" selected=":/zu_code_nor.svg" disabled=":/zu_code_dis.svg" normal=":/zu_code_nor.svg">off</ImgState>
+            <ImgState active=":/zi_code_hover.svg" selected=":/zi_code_nor.svg" disabled=":/zi_code_dis.svg" normal=":/zi_code_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>103</ID>
+        <Type>0</Type>
+        <Name>GPU</Name>
+        <MenuName pressed="Close GPU">Open GPU</MenuName>
+        <Tip>GPU</Tip>
+        <WinType>3</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="true" visible="false">6</Show>
+        <Image>
+            <ImgState active=":/gpu_hover.svg" selected=":/gpu_nor.svg" disabled=":/gpu_dis.svg" normal=":/gpu_nor.svg">off</ImgState>
+            <ImgState active=":/gpu_hover.svg" selected=":/gpu_hover.svg" disabled=":/gpu_dis.svg" normal=":/gpu_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    
+    <ButtonConfig>
+        <ID>400</ID>
+        <Type>2</Type>
+        <Name>picture internal</Name>
+        <MenuName>picture internal</MenuName>
+        <Tip>picture internal</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">2</Show>
+        <ComBox>
+            <ComBoxItem>1 min/pic</ComBoxItem>
+            <ComBoxItem>3 min/pic</ComBoxItem>
+            <ComBoxItem>5 min/pic</ComBoxItem>
+            <ComBoxItem>10 min/pic</ComBoxItem>
+        </ComBox>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>401</ID>
+        <Type>0</Type>
+        <Name>downLoad</Name>
+        <MenuName pressed="download picture">download picture</MenuName>
+        <Tip pressed="download picture">download picture</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/download_hover.svg" selected=":/download_hover.svg" disabled=":/download_dis.svg" normal=":/download_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>207</ID>
+        <Type>0</Type>
+        <Name>save</Name>
+        <MenuName pressed="save realplayback">save realplayback</MenuName>
+        <Tip pressed="save realplayback">save realplayback</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/download_hover.svg" selected=":/download_hover.svg" disabled=":/download_dis.svg" normal=":/download_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>957</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="false" checkable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>402</ID>
+        <Type>0</Type>
+        <Name>return</Name>
+        <MenuName pressed="return realplay">return realplay</MenuName>
+        <Tip pressed="return realplay">return realplay</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/backup_hover.svg" selected=":/backup_hover.svg" disabled=":/backup_dis.svg" normal=":/backup_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>205</ID>
+        <Type>0</Type>
+        <Name>return</Name>
+        <MenuName pressed="return realplay">return realplay</MenuName>
+        <Tip pressed="return realplay">return realplay</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show enable="true" checkable="false" visible="true">6</Show>
+        <Image>
+            <ImgState active=":/backup_hover.svg" selected=":/backup_hover.svg" disabled=":/backup_dis.svg" normal=":/backup_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+</Config>

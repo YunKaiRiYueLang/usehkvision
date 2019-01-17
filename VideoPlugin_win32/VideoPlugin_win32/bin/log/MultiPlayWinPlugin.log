@@ -1,0 +1,25 @@
+2019-01-08 17:10:17.996 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Updata param from config files.  # multiplaywin::ParamFileManager::UpdataParam # 280
+2019-01-08 17:10:18.009 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Updata param from config files.  # multiplaywin::ParamFileManager::UpdataParam # 280
+2019-01-08 17:10:18.058 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout. ++++++ # multiplaywin::CMultiPlayWin::SetLayout # 589
+2019-01-08 17:10:18.060 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout end. ------ # multiplaywin::CMultiPlayWin::SetLayout # 632
+2019-01-08 17:10:18.061 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout. ++++++ # multiplaywin::CMultiPlayWin::SetLayout # 589
+2019-01-08 17:10:18.062 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout end. ------ # multiplaywin::CMultiPlayWin::SetLayout # 632
+2019-01-08 17:10:18.207 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout. ++++++ # multiplaywin::CMultiPlayWin::SetLayout # 589
+2019-01-08 17:10:18.207 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout end. ------ # multiplaywin::CMultiPlayWin::SetLayout # 632
+2019-01-08 17:10:32.099 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout. ++++++ # multiplaywin::CMultiPlayWin::SetLayout # 589
+2019-01-08 17:10:32.100 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout end. ------ # multiplaywin::CMultiPlayWin::SetLayout # 632
+2019-01-08 17:10:52.036 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1001, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:10:55.598 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1001, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:10:58.540 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:03.411 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:04.275 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:06.333 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:09.454 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:10.053 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:14.699 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:21.083 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:25.691 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout. ++++++ # multiplaywin::CMultiPlayWin::SetLayout # 589
+2019-01-08 17:11:25.691 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] Start set layout end. ------ # multiplaywin::CMultiPlayWin::SetLayout # 632
+2019-01-08 17:11:27.275 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:29.340 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708
+2019-01-08 17:11:38.659 [0x00002e04] DEBUG ltiPlayWinPlugin - [..\..\..\src\vs2015\MultiPlayWin\ParamFileManager.cpp-180] ** win id=1000, Stop play. res=0 # multiplaywin::SinglePlayWin::StopPlay # 708

@@ -1,0 +1,123 @@
+QListView
+{
+	border: none;
+}
+
+QScrollArea
+{
+    background-color:transparent;
+    border:none;
+}
+QScrollBar:vertical
+{ 
+    background-color: #ffffff;
+    border:none;
+	margin:0px 0px 0px 0px; 
+}
+
+QScrollBar::handle:vertical
+{
+	background-color: #cccccc;
+	margin:0px 5px 0px 5px; 
+	border-radius: 2px;
+}
+QScrollBar::handle:vertical:hover
+{
+    background-color: #adadad;
+	border-radius: 2px;
+}
+
+QScrollBar::handle:vertical:pressed
+{
+    background-color: #7b7b7b;
+	border-radius: 2px;
+}
+
+QScrollBar::up-arrow:vertical
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QScrollBar::down-arrow:vertical
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QScrollBar::sub-line:vertical
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+QScrollBar::add-line:vertical
+{ 
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QScrollBar:horizontal
+{
+    background-color: #ffffff;
+	border:none;
+    margin:0px 0px 0px 0px; 
+}
+
+QScrollBar::handle:horizontal
+{
+	background-color: #cccccc;
+	border-radius: 2px;
+	margin:5px 0px 5px 0px; 
+}
+
+QScrollBar::handle:horizontal:hover
+{
+    background-color: #adadad;
+	border-radius: 2px;
+}
+
+QScrollBar::handle:horizontal:pressed
+{
+    background-color: #7b7b7b;
+	border-radius: 2px;
+}
+
+QScrollBar::left-arrow:horizontal
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QScrollBar::right-arrow:horizontal
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QScrollBar::add-line:horizontal
+{
+     width: 0px; 
+	 height: 0px;
+	 border: none;
+}
+
+QListWidget#record_type_list
+{
+	font: 13px Microsoft YaHei;
+	background-color: #ffffff;
+	border: none;
+}
+
+QListWidget#record_type_list::item
+{
+	background-color: #ffffff;
+	color: #4c4c4c;
+	font-size: 13px;
+	height: 32px;
+}

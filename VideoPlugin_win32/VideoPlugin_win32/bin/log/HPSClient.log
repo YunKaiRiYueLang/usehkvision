@@ -1,0 +1,16 @@
+2019-01-08 17:09:30.632 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:09:30.632 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2687)] - | version: 5.0.2.541096
+2019-01-08 17:09:30.632 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2687)] - | build:   5.0.2.541096 (Build2018/09/14 19:25:15)
+2019-01-08 17:09:30.632 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2687)] - | brief:   stream client sdk
+2019-01-08 17:09:30.632 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:09:30.637 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2688)] - SYSTRANS version:1693066547
+2019-01-08 17:09:30.639 [0x000030c0] INFO  HPSClient - [HPSClient_InitLib(2690)] - static CStreamFormat addr:010B5538 
+2019-01-08 17:09:30.639 [0x000030c0] WARN  HPSClient - [ReadConfigFile(874)] [0x0173eaa9] - open file StreamClient.json err!
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2687)] - | version: 5.0.2.541096
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2687)] - | build:   5.0.2.541096 (Build2018/09/14 19:25:15)
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2687)] - | brief:   stream client sdk
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2687)] - ================================================
+2019-01-08 17:09:49.595 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2688)] - SYSTRANS version:1693066547
+2019-01-08 17:09:49.596 [0x00002e04] INFO  HPSClient - [HPSClient_InitLib(2690)] - static CStreamFormat addr:04075538 
+2019-01-08 17:09:49.596 [0x00002e04] WARN  HPSClient - [ReadConfigFile(874)] [0x0173eaa9] - open file StreamClient.json err!

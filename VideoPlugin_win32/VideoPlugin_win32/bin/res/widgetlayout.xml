@@ -1,0 +1,1007 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Config>
+<ElementConfig>
+<Name>1x1-1</Name>
+<Type>1</Type>
+<WndSize>1</WndSize>
+<RowStretch>0</RowStretch>
+<ColumnStretch>0</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>2x2-4</Name>
+<Type>2</Type>
+<WndSize>4</WndSize>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="1" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x3-6</Name>
+<Type>3</Type>
+<WndSize>6</WndSize>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="2" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x3-9</Name>
+<Type>4</Type>
+<WndSize>9</WndSize>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="2" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-8</Name>
+<Type>5</Type>
+<WndSize>8</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-16</Name>
+<Type>8</Type>
+<WndSize>16</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-10</Name>
+<Type>6</Type>
+<WndSize>10</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-13</Name>
+<Type>7</Type>
+<WndSize>13</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="1" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="6" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-10</Name>
+<Type>9</Type>
+<WndSize>10</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="4" columnSpan="4" />
+<Element type="QWidget" id="1" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-13</Name>
+<Type>10</Type>
+<WndSize>13</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="5" row="2" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="6" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-14</Name>
+<Type>11</Type>
+<WndSize>14</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-17</Name>
+<Type>12</Type>
+<WndSize>17</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-19</Name>
+<Type>13</Type>
+<WndSize>19</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-22</Name>
+<Type>14</Type>
+<WndSize>22</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>5x5-25</Name>
+<Type>15</Type>
+<WndSize>25</WndSize>
+<RowStretch>1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x6-36</Name>
+<Type>18</Type>
+<WndSize>36</WndSize>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="0" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="1" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="3" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="25" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="26" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="27" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="28" row="4" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="29" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="30" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="31" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="32" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="33" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="34" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="35" row="5" column="5" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>7x7-32</Name>
+<Type>16</Type>
+<WndSize>32</WndSize>
+<RowStretch>1,1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="9" row="2" column="2" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="10" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="3" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="5" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="25" row="6" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="26" row="6" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="27" row="6" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="28" row="6" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="29" row="6" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="30" row="6" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="31" row="6" column="6" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>8x8-64</Name>
+<Type>17</Type>
+<WndSize>64</WndSize>
+<RowStretch>1,1,1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="0" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="0" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="0" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="1" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="1" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="1" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="2" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="2" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="25" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="26" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="27" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="28" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="29" row="3" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="30" row="3" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="31" row="3" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="32" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="33" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="34" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="35" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="36" row="4" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="37" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="38" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="39" row="4" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="40" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="41" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="42" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="43" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="44" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="45" row="5" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="46" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="47" row="5" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="48" row="6" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="49" row="6" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="50" row="6" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="51" row="6" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="52" row="6" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="53" row="6" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="54" row="6" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="55" row="6" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="56" row="7" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="57" row="7" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="58" row="7" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="59" row="7" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="60" row="7" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="61" row="7" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="62" row="7" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="63" row="7" column="7" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+
+<ElementConfig>
+<Name>1+1+12</Name>
+<Type>20</Type>
+<WndSize>14</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="8" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="4" column="4" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>1+8</Name>
+<Type>21</Type>
+<WndSize>9</WndSize>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="4" />
+<Element type="QWidget" id="1" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>1+12</Name>
+<Type>22</Type>
+<WndSize>13</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>1-4</Name>
+<Type>23</Type>
+<WndSize>4</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="4" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="4" />
+<Element type="QWidget" id="2" row="2" column="0" rowSpan="1" columnSpan="4" />
+<Element type="QWidget" id="3" row="3" column="0" rowSpan="1" columnSpan="4" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3+4</Name>
+<Type>24</Type>
+<WndSize>7</WndSize>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="2" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="3" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="3" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4-6</Name>
+<Type>25</Type>
+<WndSize>24</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="0" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="1" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="3" column="5" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+
+<ElementConfig>
+<Name>2x1-2</Name>
+<Type>30</Type>
+<WndSize>2</WndSize>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>2x2-2</Name>
+<Type>50</Type>
+<WndSize>2</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget"     id="0" row="1" column="0" rowSpan="2" columnSpan="1" />
+<Element type="QWidget"     id="1" row="1" column="1" rowSpan="2" columnSpan="1" />
+<Element type="QSpacerItem" id="2" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QSpacerItem" id="3" row="3" column="0" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>2x2-3</Name>
+<Type>51</Type>
+<WndSize>3</WndSize>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="2" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="1" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x3-3</Name>
+<Type>52</Type>
+<WndSize>3</WndSize>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="3" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="3" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-4</Name>
+<Type>53</Type>
+<WndSize>4</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="4" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="4" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="4" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="4" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>4x4-8</Name>
+<Type>54</Type>
+<WndSize>8</WndSize>
+<RowStretch>1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="1" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="2" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="3" rowSpan="2" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x4-4</Name>
+<Type>100</Type>
+<WndSize>4</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x4-6</Name>
+<Type>101</Type>
+<WndSize>6</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x4-9</Name>
+<Type>102</Type>
+<WndSize>9</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x4-12</Name>
+<Type>103</Type>
+<WndSize>12</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="3" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x8-7</Name>
+<Type>104</Type>
+<WndSize>7</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="2" row="0" column="6" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="3" row="2" column="6" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="4" row="3" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="5" row="3" column="3" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="6" row="4" column="6" rowSpan="2" columnSpan="2" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x8-16</Name>
+<Type>105</Type>
+<WndSize>16</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="1" row="0" column="3" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="2" row="0" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="1" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="1" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="3" column="0" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="9" row="3" column="3" rowSpan="3" columnSpan="3" />
+<Element type="QWidget" id="10" row="3" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="3" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="4" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="5" column="7" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x8-24</Name>
+<Type>106</Type>
+<WndSize>24</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="3" row="0" column="6" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="5" row="2" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="6" row="2" column="4" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="7" row="2" column="6" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="8" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="4" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="4" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="5" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="5" column="7" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x8-36</Name>
+<Type>107</Type>
+<WndSize>36</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="1" row="0" column="2" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="2" row="0" column="4" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="3" row="0" column="6" rowSpan="2" columnSpan="2" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="2" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="2" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="3" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="3" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="3" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="4" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="25" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="26" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="27" row="4" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="28" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="29" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="30" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="31" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="32" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="33" row="5" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="34" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="35" row="5" column="7" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>6x8-48</Name>
+<Type>108</Type>
+<WndSize>48</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1,1,1,1</RowStretch>
+<ColumnStretch>1,1,1,1,1,1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="0" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="0" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="0" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="0" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="0" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="7" row="0" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="8" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="9" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="10" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="11" row="1" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="12" row="1" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="13" row="1" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="14" row="1" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="15" row="1" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="16" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="17" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="18" row="2" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="19" row="2" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="20" row="2" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="21" row="2" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="22" row="2" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="23" row="2" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="24" row="3" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="25" row="3" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="26" row="3" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="27" row="3" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="28" row="3" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="29" row="3" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="30" row="3" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="31" row="3" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="32" row="4" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="33" row="4" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="34" row="4" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="35" row="4" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="36" row="4" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="37" row="4" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="38" row="4" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="39" row="4" column="7" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="40" row="5" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="41" row="5" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="42" row="5" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="43" row="5" column="3" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="44" row="5" column="4" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="45" row="5" column="5" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="46" row="5" column="6" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="47" row="5" column="7" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>2x2-1X2-2</Name>
+<Type>60</Type>
+<WndSize>2</WndSize>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="2" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="2" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+  
+<Name>2x2-2X1-2</Name>
+<Type>61</Type>
+<WndSize>2</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="2" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="2" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+  
+<Name>3x1-2</Name>
+<Type>109</Type>
+<WndSize>2</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1</RowStretch>
+<ColumnStretch>1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>1x2-2</Name>
+<Type>110</Type>
+<WndSize>2</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1</RowStretch>
+<ColumnStretch>1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="1" row="0" column="1" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+<ElementConfig>
+<Name>3x3-7</Name>
+<Type>111</Type>
+<WndSize>7</WndSize>
+<Widescreen>1</Widescreen>
+<RowStretch>1,1,1</RowStretch>
+<ColumnStretch>1,1,1</ColumnStretch>
+<ElementItems>
+<Element type="QWidget" id="0" row="0" column="0" rowSpan="1" columnSpan="3" />
+<Element type="QWidget" id="1" row="1" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="2" row="1" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="3" row="1" column="2" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="4" row="2" column="0" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="5" row="2" column="1" rowSpan="1" columnSpan="1" />
+<Element type="QWidget" id="6" row="2" column="2" rowSpan="1" columnSpan="1" />
+</ElementItems>
+</ElementConfig>
+</Config>

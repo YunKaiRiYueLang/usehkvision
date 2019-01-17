@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--错误码对应信息-->
+<ErrorConfig>
+	<!-- 内容举例，具体内容由实际错误定义决定-->
+	<ErrorMode mode="streamClient">
+		<ErrorItem info="server exception">0x0173ea86, 0x0173ea87,0x0173ea88, 0x0173ea89, 0x0173ea8a, 0x0173ea8b, 0x0173ea8c,
+			0x0173ea8d, 0x0173ea8e, 0x0173ea8f, 0x0173ea90, 0x0173ea91,0x0173ea92, 0x0173ea93, 0x0173ea94, 0x0173ea95, 0x0173ea96, 
+			0x0173ea97</ErrorItem>
+		<ErrorItem info="server disconnection">0x0173ea99</ErrorItem>	
+		<ErrorItem info="server Identity authentication fail ">0x0173ea71</ErrorItem>	
+		<ErrorItem info="server sessioninvalid">0x0173ea72</ErrorItem>	  
+		<ErrorItem info="server request error">0x0173ea73</ErrorItem>	
+		<ErrorItem info="server message exception">0x0173ea75</ErrorItem>	
+		<ErrorItem info="server connection exception">0x0173ea66</ErrorItem>	
+		<ErrorItem info="server connection invalid">0x0173ea67</ErrorItem>	
+		<ErrorItem info="server port binding failure">0x0173ea68</ErrorItem>	
+		<ErrorItem info="server failure data">0x0173ea69</ErrorItem> 
+		
+		<ErrorItem info="server failure data">5</ErrorItem> 
+	</ErrorMode>
+
+    <!-- 解码进程错误码-->
+	<ErrorMode mode="decoder">
+		<ErrorItem info="unknown error">0x0E480001</ErrorItem> 
+		<ErrorItem info="call function error">0x0E480002,0x0E480003</ErrorItem> 
+		<ErrorItem info="uninit">0x0E480004</ErrorItem> 
+		<ErrorItem info="operate is nonsupport">0x0E480005,0x0E48090a,0x0E48090b</ErrorItem> 
+		<ErrorItem info="insufficient resource">0x0E480006,0x0E480901,0x0E480904,0x0E480910</ErrorItem> 
+		<ErrorItem info="open file failed">0x0E480900</ErrorItem>
+		<ErrorItem info="operate has been cancled">0x0E480902 </ErrorItem>	
+		<ErrorItem info="has no file">0x0E48090d，0x0E48090e</ErrorItem>		
+		<ErrorItem info="can't to use GPU">0x0E480911 </ErrorItem>
+		<ErrorItem info="can't get config">0x0E480912 </ErrorItem>
+		<ErrorItem info="no path to save">0x0E480913</ErrorItem>
+
+	</ErrorMode>
+	
+     <!-- http错误码-->
+	<ErrorMode mode="http">
+		<ErrorItem info="server permanent migration">301</ErrorItem> 
+		<ErrorItem info="server access denied">401</ErrorItem> 
+		<ErrorItem info="server forbidden access ">403</ErrorItem> 
+		<ErrorItem info="not found service">404</ErrorItem> 
+	</ErrorMode>
+	
+	<ErrorMode mode="netsdk">
+		<ErrorItem info="username or passwd is error">0xE460001,0xE46001a</ErrorItem> 
+		<ErrorItem info="has no authority">0xE460002, 0xE46000d</ErrorItem>
+		<ErrorItem info="unint">0xE460003</ErrorItem>
+		<ErrorItem info="channel number error">0xE460004</ErrorItem>
+		<ErrorItem info="logon number is over max number">0xE460005</ErrorItem>
+		<ErrorItem info="version is error">0xE460006</ErrorItem>
+		<ErrorItem info="communication error with server">0xE460007,0xE460008,0xE460009,0xE46000a,0xE460012, 0xE46001f</ErrorItem>
+		<ErrorItem info="data error">0xE46000b</ErrorItem>
+		<ErrorItem info="call sequence or paramer error ">0xE46000c,0xE460011,0xE460020</ErrorItem>
+		<ErrorItem info="command is over time ">0xE46000e</ErrorItem>
+		<ErrorItem info="serial port error ">0xE46000f</ErrorItem>
+		<ErrorItem info="hard disk is formatting">0xE46001b</ErrorItem> 
+		<ErrorItem info="file operate failed">0xE460021,0xE460022, 0xE460023</ErrorItem> 
+		<ErrorItem info="insufficient resource">0xE460029,0xE46002b</ErrorItem> 
+		
+	</ErrorMode>
+	
+	<ErrorMode mode="voice">
+	</ErrorMode>
+	
+	<ErrorMode mode="playcontrol">
+		<ErrorItem info="paramer error ">0xE410001 </ErrorItem> 
+		<ErrorItem info="has not to play">0xE410002 </ErrorItem> 
+		<ErrorItem info="has no function">0xE410003, 0xE410007</ErrorItem> 
+		<ErrorItem info="socket address reusing fail">0xE410004 </ErrorItem> 
+		<ErrorItem info="save file failed">0xE410005 </ErrorItem> 
+		<ErrorItem info="decoder called error">0xE410006 </ErrorItem> 
+		<ErrorItem info="invalid handle">0xE410008 </ErrorItem> 
+	</ErrorMode>
+</ErrorConfig>

@@ -1,0 +1,322 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!--
+ID: 是分辨按钮的唯一标志，<=1000是内置按钮，>1000是扩展ID,==0无效
+Sequence: 按钮排列顺序，数字越小，排序越靠左，具体数字根据需要调整,该字段已废止，顺序按照加载的顺序来确定
+Type: 0:普通按钮,1:显示框 ，2:combox, 3~9 后期扩展,10:伸缩器,用于对按钮之间的伸缩，11:分割器，用于对按钮之间的分割，只用于工具条，不使用与菜单
+Name: 按钮名称
+MenuName:右键菜单名称
+		pressed:按下后右键菜单显示的名称
+Tip: 按钮的tooltip信息
+WinType: 窗口类型 0x1 预览 0x2 回放 0x4 图片 0x8 即时回放，共有的则或
+DeviceType: 设备类型 0x1 海康，0x2 大华, 0x4 国标, 0x8 onvif, 0x16 B接口
+Show: 按钮放置的位置，0x1 topbar, 0x2 bottombar, 0x4 right menu；如果需要在多个地方显示，则需要或（|）上
+		visible(true/false) 是否可以见
+		checkable(true/false) 是否具有check效果
+		enable(true/false) 是否可以使用
+Image: 按钮贴的图片-正常时的图片路径（参考rcc的图片设置）
+		ImgState：表示图片的状态，(on,off)，默认是off。按钮如果是checkedable，且已经checked，则为on；反之为off
+		normal,disabled,active,表示在此种model下的图片
+-->
+<Config>
+    <ButtonConfig>
+        <ID>950</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>15</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="false" visible="true">1</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>100</ID>
+        <Type>0</Type>
+        <Name>关闭</Name>
+        <MenuName>关闭窗口</MenuName>
+        <Tip>关闭窗口</Tip>
+        <WinType>15</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">5</Show>
+        <Image>
+            <ImgState selected=":/close_hover.svg" disabled=":/close_dis.svg" active=":/close_hover.svg" normal=":/close_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>107</ID>
+        <Type>0</Type>
+        <Name>停止</Name>
+        <MenuName>停止</MenuName>
+        <Tip>停止</Tip>
+        <WinType>3</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="false">6</Show>
+        <Image>
+            <ImgState selected=":/stop_hover.svg" disabled=":/stop_dis.svg" active=":/stop_hover.svg" normal=":/stop_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>108</ID>
+        <Type>0</Type>
+        <Name>单帧退</Name>
+        <MenuName>单帧退</MenuName>
+        <Tip>单帧退</Tip>
+        <WinType>8</WinType>
+        <DeviceType>9</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/preframe_hover.svg" disabled=":/preframe_dis.svg" active=":/preframe_hover.svg" normal=":/preframe_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>302</ID>
+        <Type>0</Type>
+        <Name>暂停</Name>
+        <MenuName>暂停</MenuName>
+        <Tip pressed="播放">暂停</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/pause_nor.svg" disabled=":/play_dis.svg" active=":/pause_hover.svg" normal=":/pause_nor.svg">off</ImgState>
+            <ImgState selected=":/play_forward_nor.svg" disabled=":/play_dis.svg" active=":/play_forward_hover.svg" normal=":/play_forward_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>109</ID>
+        <Type>0</Type>
+        <Name>单帧进</Name>
+        <MenuName>单帧进</MenuName>
+        <Tip>单帧进</Tip>
+        <WinType>8</WinType>
+        <DeviceType>15</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/nextframe_hover.svg" disabled=":/nextframe_dis.svg" active=":/nextframe_hover.svg" normal=":/nextframe_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>955</ID>
+        <Type>11</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>206</ID>
+        <Type>1</Type>
+        <Name>进度</Name>
+        <MenuName></MenuName>
+        <Tip></Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>956</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="false" visible="true">2</Show>
+    </ButtonConfig>
+	<ButtonConfig>
+        <ID>105</ID>
+        <Type>0</Type>
+        <Name>声音</Name>
+        <MenuName pressed="静音">打开声音</MenuName>
+        <Tip pressed="静音">声音</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/unvoice_nor.svg" disabled=":/unvoice_dis.svg" active=":/unvoice_hover.svg" normal=":/unvoice_nor.svg">off</ImgState>
+            <ImgState selected=":/voice_nor.svg" disabled=":/voice_dis.svg" active=":/voice_hover.svg" normal=":/voice_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>102</ID>
+        <Type>0</Type>
+        <Name>抓图</Name>
+        <MenuName>抓图</MenuName>
+        <Tip>抓图</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/capture_hover.svg" disabled=":/capture_dis.svg" active=":/capture_hover.svg" normal=":/capture_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>203</ID>
+        <Type>0</Type>
+        <Name>录像</Name>
+        <MenuName pressed="停止紧急录像">开始紧急录像</MenuName>
+        <Tip>紧急录像</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/record_nor.svg" disabled=":/record_dis.svg" active=":/record_hover.svg" normal=":/record_nor.svg">off</ImgState>
+            <ImgState selected=":/record_hover.svg" disabled=":/record_dis.svg" active=":/record_hover.svg" normal=":/record_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>306</ID>
+        <Type>0</Type>
+        <Name>剪辑</Name>
+        <MenuName pressed="停止录像剪辑">开始录像剪辑</MenuName>
+        <Tip>录像剪辑</Tip>
+        <WinType>2</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/cut_nor.svg" disabled=":/cut_dis.svg" active=":/cut_hover.svg" normal=":/cut_nor.svg">off</ImgState>
+            <ImgState selected=":/cut_hover.svg" disabled=":/cut_dis.svg" active=":/cut_hover.svg" normal=":/cut_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>104</ID>
+        <Type>0</Type>
+        <Name>电子放大</Name>
+        <MenuName pressed="关闭电子放大">开启电子放大</MenuName>
+        <Tip>电子放大</Tip>
+        <WinType>11</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/zoomin_hover.svg" disabled=":/zoomin_dis.svg" active=":/zoomin_hover.svg" normal=":/zoomin_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>204</ID>
+        <Type>0</Type>
+        <Name>3D</Name>
+        <MenuName pressed="关闭3D放大">开启3D放大</MenuName>
+        <Tip>3D放大</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/3d_hover.svg" disabled=":/3d_dis.svg" active=":/3d_hover.svg" normal=":/3d_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>202</ID>
+        <Type>0</Type>
+        <Name>云台</Name>
+        <MenuName pressed="关闭云台">开启云台</MenuName>
+        <Tip>云台</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/ptz_hover.svg" disabled=":/ptz_dis.svg" active=":/ptz_hover.svg" normal=":/ptz_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>101</ID>
+        <Type>0</Type>
+        <Name>主/子</Name>
+        <MenuName pressed="切换为主码流">切换为子码流</MenuName>
+        <Tip pressed="切换为主码流">切换为子码流</Tip>
+        <WinType>1</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/zu_code_nor.svg" disabled=":/zu_code_dis.svg" active=":/zu_code_hover.svg" normal=":/zu_code_nor.svg">off</ImgState>
+            <ImgState selected=":/zi_code_nor.svg" disabled=":/zi_code_dis.svg" active=":/zi_code_hover.svg" normal=":/zi_code_nor.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>103</ID>
+        <Type>0</Type>
+        <Name>GPU</Name>
+        <MenuName pressed="关闭GPU">开启GPU</MenuName>
+        <Tip>GPU</Tip>
+        <WinType>3</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="true" enable="true" visible="false">6</Show>
+        <Image>
+            <ImgState selected=":/gpu_nor.svg" disabled=":/gpu_dis.svg" active=":/gpu_hover.svg" normal=":/gpu_nor.svg">off</ImgState>
+            <ImgState selected=":/gpu_hover.svg" disabled=":/gpu_dis.svg" active=":/gpu_hover.svg" normal=":/gpu_hover.svg">on</ImgState>
+        </Image>
+    </ButtonConfig>
+    
+    <ButtonConfig>
+        <ID>400</ID>
+        <Type>2</Type>
+        <Name>抓图间隔</Name>
+        <MenuName>抓图间隔</MenuName>
+        <Tip>抓图间隔</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>401</ID>
+        <Type>0</Type>
+        <Name>下载</Name>
+        <MenuName pressed="下载图片">下载图片</MenuName>
+        <Tip pressed="下载图片">下载图片</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/download_hover.svg" disabled=":/download_dis.svg" active=":/download_hover.svg" normal=":/download_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>207</ID>
+        <Type>0</Type>
+        <Name>保存</Name>
+        <MenuName pressed="保存即时回放">保存即时回放</MenuName>
+        <Tip pressed="保存即时回放">保存即时回放</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/download_hover.svg" disabled=":/download_dis.svg" active=":/download_hover.svg" normal=":/download_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>957</ID>
+        <Type>10</Type>
+        <Name>separator</Name>
+        <MenuName></MenuName>
+        <Tip>separate the toolbuttons</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="false" visible="true">2</Show>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>402</ID>
+        <Type>0</Type>
+        <Name>返回</Name>
+        <MenuName pressed="返回实时预览">返回实时预览</MenuName>
+        <Tip pressed="返回实时预览">返回实时预览</Tip>
+        <WinType>4</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/backup_hover.svg" disabled=":/backup_dis.svg" active=":/backup_hover.svg" normal=":/backup_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+    <ButtonConfig>
+        <ID>205</ID>
+        <Type>0</Type>
+        <Name>返回</Name>
+        <MenuName pressed="返回实时预览">返回实时预览</MenuName>
+        <Tip pressed="返回实时预览">返回实时预览</Tip>
+        <WinType>8</WinType>
+        <DeviceType>31</DeviceType>
+        <Show checkable="false" enable="true" visible="true">6</Show>
+        <Image>
+            <ImgState selected=":/backup_hover.svg" disabled=":/backup_dis.svg" active=":/backup_hover.svg" normal=":/backup_nor.svg">off</ImgState>
+        </Image>
+    </ButtonConfig>
+</Config>
