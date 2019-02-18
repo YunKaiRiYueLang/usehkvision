@@ -1,49 +1,29 @@
-/*¸ÃÏà»úÖ§³ÖrtspĞ­Òé,²»ÓÃº£¿µµÄsdkÒ²¿ÉÒÔ»ñÈ¡½âÂëÍ¼Ïñ*/
-/*Ê¹ÓÃstackÊı¾İ½Ó¿Ú±£Ö¤Í¼ÏñµÄ´¦ÀíË³Ğò,ĞèÒªÈ·±£´¦ÀíµÄ±È´«ÈëµÄ¿ìËÙ*/
+/*è¯¥ç›¸æœºæ”¯æŒrtspåè®®,ä¸ç”¨æµ·åº·çš„sdkä¹Ÿå¯ä»¥è·å–è§£ç å›¾åƒ*/
+/*ä½¿ç”¨queueä¿è¯å›¾åƒçš„å¤„ç†é¡ºåºFIFO,å¤„ç†çš„é€Ÿåº¦æ€»æ˜¯éœ€è¦æ¯”ä¼ é€çš„é€Ÿåº¦å—*/
 
 #include<opencv2/opencv.hpp>
 #include<time.h>
 #include<thread>
-#include<stack>
-/*
-#include"detectabandon.h"
-#include"C4_people_detect.h"
-#include"package_bgs/LBFuzzyGaussian.h"
-*/
+#include<queue>
+
+
+
 using cv::Mat;
-using std::stack;
-//using namespace ibgs;
+using std::queue;
+
 
 cv::Mat frame;
-stack<Mat> stacksrc;
-/*IBGS* bgs = new LBFuzzyGaussian;
-void proecssimage(Mat &src)
-{
-	std::vector<cv::Point> centerpoints;
-	cv::Mat img_input = src;
-	cv::Mat cv_fg;
-	cv::Mat cv_bg;
-	bgs->setShowOutput(true);
-	bgs->process(img_input, cv_fg, cv_bg); //ÕâÀïÎÒÃÇµÄµ½ÁËÇ°¾°Í¼Æ¬
-	//cv::cvtColor(img_input, img_input, COLOR_BGR2GRAY);//µÃµ½ÁËÔ­Í¼µÄ»Ò¶ÈÍ¼¡£
-	cv::Mat output = img_input.clone();
-	std::vector<cv::Rect> rects;
-	ObjectDetect(cv_fg, output, centerpoints,false);// ´ËÊ±ÕâµÃµ½µÄÒÑ¾­ÊÇÒÅÁôÎï»­¿òµÄÍ¼ÁË¡£
-	imshow("Ç°¾°", cv_fg);
-	imshow("ÒÅÁôÎï", output);
-	src = output;
-	waitKey(1);
-}*/
+queue<cv::Mat> queuesrc;
 
 void secondthread()
 {
 	for(;;)
 	{
 
-		if (stacksrc.empty())		{continue;}		/*¼ì²éstack¶ÔÏóÊÇ·ñÎª¿Õ*/
-		Mat image = stacksrc.top();
-		stacksrc.pop();
-		if (image.data == NULL) { continue; }		/*¼ì²éÍ¼ÏñÊÇ·ñÎª¿Õ*/
+		if (queuesrc.empty())		{continue;}		/*æ£€æŸ¥stackå¯¹è±¡æ˜¯å¦ä¸ºç©º*/
+		Mat image = queuesrc.front();
+		queuesrc.pop();
+		if (image.data == NULL) { continue; }		/*æ£€æŸ¥å›¾åƒæ˜¯å¦ä¸ºç©º*/
 
 		cv::resize(image, image, cv::Size(320, 240));
 		cv::imshow("test", image);
@@ -51,7 +31,7 @@ void secondthread()
 		{
 			exit(0);
 		}
-		//std::cout << "test" << std::endl;
+		std::cout << "test" << std::endl;
 	}
 }
 
@@ -62,11 +42,12 @@ int main()
 	int num = 100;
 	int index = 1;
 	bool firststart = true;
-	
+
+
 	while (true)
 	{
 		HkCamera >> frame;
-		stacksrc.push(frame);
+		queuesrc.push(frame);
 		cv::imshow("hkcamera", frame);
 		if (firststart)
 		{
@@ -78,7 +59,7 @@ int main()
 		index++;
 		if (index == 100)
 		{
-			std::cout << "»ñÈ¡100Ö¡ÓÃÊ±" << clock() - t1 << std::endl;
+			std::cout << "è·å–100å¸§ç”¨æ—¶" << clock() - t1 << std::endl;
 			std::cout << frame.size() << std::endl;
 			t1 = clock();
 			index = 0;
